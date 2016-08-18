@@ -1,0 +1,16 @@
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |
+| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |
+checking if SFs are up:  | 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |                      | PENDING_CREATE |
+checking if SFs are up:  
+Request Failed: internal server error while processing your request.
+Request Failed: internal server error while processing your request.
