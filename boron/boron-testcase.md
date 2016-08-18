@@ -33,4 +33,4 @@ Request Failed: internal server error while processing your request.
 3. I try to get the flows using the `dump_flows.sh` script.
    The flows seem to be created only in the compute node as show in the following printscreen
 ![dump_flows output](https://raw.githubusercontent.com/georgepar/sfc-work/master/boron/flows.png)
-4. The `sfc.py` testcase errors out in line 918, so I tried to create a fix. (Still testing)
+4. The `sfc.py` testcase errors out (see the above printscreen), so I tried to create a fix. (Still testing)
