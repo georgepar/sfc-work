@@ -60,7 +60,7 @@ java.lang.IllegalStateException: Deserializer for key: msgVersion: 4 objectClass
 	at java.lang.Thread.run(Thread.java:745)[:1.8.0_14-internal]
 ```
 
-A quick search leads to [this bug report](https://bugs.opendaylight.org/show_bug.cgi?id=2957). The bug report is a year old.
+A quick search leads to [this bug report](https://bugs.opendaylight.org/show_bug.cgi?id=2957) in openflowplugin, which is fixed.
 
 
 ## Various errors
