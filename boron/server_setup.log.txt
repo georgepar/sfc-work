@@ -1,0 +1,2214 @@
+~/repos/functest/testcases/features/sfc ~/repos/functest/testcases/features/sfc
+10.20.0.5
+Warning: Permanently added '10.20.0.2' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.2' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.2' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.5' (ECDSA) to the list of known hosts.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 26 14269   26  3741    0     0   4906      0  0:00:02 --:--:--  0:00:02  4903100 14269  100 14269    0     0  17017      0 --:--:-- --:--:-- --:--:-- 17007
+Ign http://10.20.0.2:8080 auxiliary InRelease
+Ign http://10.20.0.2:8080  InRelease
+Ign http://10.20.0.2:8080 mos9.0 InRelease
+Ign http://10.20.0.2:8080  InRelease
+Ign http://10.20.0.2:8080 auxiliary Release.gpg
+Ign http://10.20.0.2:8080  Release.gpg
+Ign http://10.20.0.2:8080 mos9.0 Release.gpg
+Ign http://10.20.0.2:8080  Release.gpg
+Hit http://10.20.0.2:8080 auxiliary Release
+Hit http://10.20.0.2:8080  Release
+Hit http://10.20.0.2:8080 mos9.0 Release
+Hit http://10.20.0.2:8080  Release
+Ign http://10.20.0.2:8080 auxiliary/main amd64 Packages/DiffIndex
+Ign http://10.20.0.2:8080 auxiliary/restricted amd64 Packages/DiffIndex
+Ign http://10.20.0.2:8080  Packages/DiffIndex
+Ign http://10.20.0.2:8080 mos9.0/main amd64 Packages/DiffIndex
+Ign http://10.20.0.2:8080 mos9.0/restricted amd64 Packages/DiffIndex
+Ign http://10.20.0.2:8080  Packages/DiffIndex
+Hit http://10.20.0.2:8080 mos9.0/main amd64 Packages
+Hit http://10.20.0.2:8080 mos9.0/restricted amd64 Packages
+Hit http://10.20.0.2:8080  Packages
+Hit http://10.20.0.2:8080  Packages
+Hit http://10.20.0.2:8080 auxiliary/main amd64 Packages
+Hit http://10.20.0.2:8080 auxiliary/restricted amd64 Packages
+Get:1 http://archive.ubuntu.com trusty-security InRelease [65.9 kB]
+Ign http://mirror.fuel-infra.org mos9.0-holdback InRelease
+Ign http://mirror.fuel-infra.org mos9.0-security InRelease
+Get:2 http://archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Ign http://mirror.fuel-infra.org mos9.0-updates InRelease
+Get:3 http://mirror.fuel-infra.org mos9.0-holdback Release.gpg [473 B]
+Ign http://archive.ubuntu.com trusty InRelease
+Get:4 http://mirror.fuel-infra.org mos9.0-security Release.gpg [473 B]
+Get:5 http://archive.ubuntu.com trusty-security/main amd64 Packages [515 kB]
+Get:6 http://mirror.fuel-infra.org mos9.0-updates Release.gpg [473 B]
+Hit http://mirror.fuel-infra.org mos9.0-holdback Release
+Ign http://mirror.fuel-infra.org mos9.0-holdback Release
+Hit http://mirror.fuel-infra.org mos9.0-security Release
+Ign http://mirror.fuel-infra.org mos9.0-security Release
+Hit http://mirror.fuel-infra.org mos9.0-updates Release
+Ign http://mirror.fuel-infra.org mos9.0-updates Release
+Ign http://mirror.fuel-infra.org mos9.0-holdback/main amd64 Packages/DiffIndex
+Ign http://mirror.fuel-infra.org mos9.0-holdback/restricted amd64 Packages/DiffIndex
+Ign http://mirror.fuel-infra.org mos9.0-security/main amd64 Packages/DiffIndex
+Get:7 http://archive.ubuntu.com trusty-security/universe amd64 Packages [130 kB]
+Ign http://mirror.fuel-infra.org mos9.0-security/restricted amd64 Packages/DiffIndex
+Ign http://mirror.fuel-infra.org mos9.0-updates/main amd64 Packages/DiffIndex
+Get:8 http://archive.ubuntu.com trusty-security/multiverse amd64 Packages [4,990 B]
+Ign http://mirror.fuel-infra.org mos9.0-updates/restricted amd64 Packages/DiffIndex
+Get:9 http://archive.ubuntu.com trusty-updates/main amd64 Packages [885 kB]
+Get:10 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [368 kB]
+Get:11 http://archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.8 kB]
+Hit http://archive.ubuntu.com trusty Release.gpg
+Hit http://archive.ubuntu.com trusty Release
+Hit http://archive.ubuntu.com trusty/main amd64 Packages
+Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-holdback/main amd64 Packages
+Hit http://archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-holdback/restricted amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-security/main amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-security/restricted amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-updates/main amd64 Packages
+Hit http://mirror.fuel-infra.org mos9.0-updates/restricted amd64 Packages
+Fetched 2,051 kB in 3s (585 kB/s)
+Reading package lists...
+W: GPG error: http://mirror.fuel-infra.org mos9.0-holdback Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
+W: GPG error: http://mirror.fuel-infra.org mos9.0-security Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
+W: GPG error: http://mirror.fuel-infra.org mos9.0-updates Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cloud-guest-utils eatmydata python-cheetah python-oauth python-serial
+  python3-pycurl python3-software-properties software-properties-common
+  unattended-upgrades
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  dh-apparmor gettext git-man intltool-debian libcroco3 liberror-perl
+  libunistring0 po-debconf python-pip-whl
+Suggested packages:
+  dh-make apparmor-easyprof gettext-doc git-daemon-run git-daemon-sysvinit
+  git-doc git-el git-email git-gui gitk gitweb git-arch git-bzr git-cvs
+  git-mediawiki git-svn libmail-box-perl
+Recommended packages:
+  libasprintf-dev libgettextpo-dev libmail-sendmail-perl python-all-dev
+  python-wheel
+The following NEW packages will be installed:
+  debhelper dh-apparmor gettext git git-man intltool-debian libcroco3
+  liberror-perl libunistring0 po-debconf python-all python-pip python-pip-whl
+0 upgraded, 13 newly installed, 0 to remove and 7 not upgraded.
+Need to get 6,644 kB of archives.
+After this operation, 30.9 MB of additional disk space will be used.
+WARNING: The following packages cannot be authenticated!
+  python-pip-whl python-pip
+Authentication warning overridden.
+Get:1 http://10.20.0.2:8080/mitaka-9.0/ubuntu/x86_64/ mos9.0/main python-pip-whl all 8.1.1-1~u14.04+mos2 [1,127 kB]
+Get:2 http://10.20.0.2:8080/mitaka-9.0/ubuntu/x86_64/ mos9.0/main python-pip all 8.1.1-1~u14.04+mos2 [171 kB]
+Get:3 http://archive.ubuntu.com/ubuntu/ trusty/main libcroco3 amd64 0.6.8-2ubuntu1 [82.4 kB]
+Get:4 http://archive.ubuntu.com/ubuntu/ trusty/main libunistring0 amd64 0.9.3-5ubuntu3 [271 kB]
+Get:5 http://archive.ubuntu.com/ubuntu/ trusty-updates/main gettext amd64 0.18.3.1-1ubuntu3 [829 kB]
+Get:6 http://archive.ubuntu.com/ubuntu/ trusty/main intltool-debian all 0.35.0+20060710.1 [31.6 kB]
+Get:7 http://archive.ubuntu.com/ubuntu/ trusty/main po-debconf all 1.0.16+nmu2ubuntu1 [210 kB]
+Get:8 http://archive.ubuntu.com/ubuntu/ trusty-updates/main dh-apparmor all 2.8.95~2430-0ubuntu5.3 [12.2 kB]
+Get:9 http://archive.ubuntu.com/ubuntu/ trusty/main debhelper all 9.20131227ubuntu1 [604 kB]
+Get:10 http://archive.ubuntu.com/ubuntu/ trusty/main liberror-perl all 0.17-1.1 [21.1 kB]
+Get:11 http://archive.ubuntu.com/ubuntu/ trusty-security/main git-man all 1:1.9.1-1ubuntu0.3 [699 kB]
+Get:12 http://archive.ubuntu.com/ubuntu/ trusty-security/main git amd64 1:1.9.1-1ubuntu0.3 [2,586 kB]
+Get:13 http://archive.ubuntu.com/ubuntu/ trusty/main python-all amd64 2.7.5-5ubuntu3 [984 B]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 6,644 kB in 3s (2,007 kB/s)
+Selecting previously unselected package libcroco3:amd64.
+(Reading database ... 121129 files and directories currently installed.)
+Preparing to unpack .../libcroco3_0.6.8-2ubuntu1_amd64.deb ...
+Unpacking libcroco3:amd64 (0.6.8-2ubuntu1) ...
+Selecting previously unselected package libunistring0:amd64.
+Preparing to unpack .../libunistring0_0.9.3-5ubuntu3_amd64.deb ...
+Unpacking libunistring0:amd64 (0.9.3-5ubuntu3) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../gettext_0.18.3.1-1ubuntu3_amd64.deb ...
+Unpacking gettext (0.18.3.1-1ubuntu3) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../intltool-debian_0.35.0+20060710.1_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.1) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../po-debconf_1.0.16+nmu2ubuntu1_all.deb ...
+Unpacking po-debconf (1.0.16+nmu2ubuntu1) ...
+Selecting previously unselected package dh-apparmor.
+Preparing to unpack .../dh-apparmor_2.8.95~2430-0ubuntu5.3_all.deb ...
+Unpacking dh-apparmor (2.8.95~2430-0ubuntu5.3) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../debhelper_9.20131227ubuntu1_all.deb ...
+Unpacking debhelper (9.20131227ubuntu1) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../liberror-perl_0.17-1.1_all.deb ...
+Unpacking liberror-perl (0.17-1.1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a1.9.1-1ubuntu0.3_all.deb ...
+Unpacking git-man (1:1.9.1-1ubuntu0.3) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a1.9.1-1ubuntu0.3_amd64.deb ...
+Unpacking git (1:1.9.1-1ubuntu0.3) ...
+Selecting previously unselected package python-all.
+Preparing to unpack .../python-all_2.7.5-5ubuntu3_amd64.deb ...
+Unpacking python-all (2.7.5-5ubuntu3) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_8.1.1-1~u14.04+mos2_all.deb ...
+Unpacking python-pip-whl (8.1.1-1~u14.04+mos2) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_8.1.1-1~u14.04+mos2_all.deb ...
+Unpacking python-pip (8.1.1-1~u14.04+mos2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for install-info (5.2.0.dfsg.1-2) ...
+Setting up libcroco3:amd64 (0.6.8-2ubuntu1) ...
+Setting up libunistring0:amd64 (0.9.3-5ubuntu3) ...
+Setting up gettext (0.18.3.1-1ubuntu3) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16+nmu2ubuntu1) ...
+Setting up dh-apparmor (2.8.95~2430-0ubuntu5.3) ...
+Setting up debhelper (9.20131227ubuntu1) ...
+Setting up liberror-perl (0.17-1.1) ...
+Setting up git-man (1:1.9.1-1ubuntu0.3) ...
+Setting up git (1:1.9.1-1ubuntu0.3) ...
+Setting up python-all (2.7.5-5ubuntu3) ...
+Setting up python-pip-whl (8.1.1-1~u14.04+mos2) ...
+Setting up python-pip (8.1.1-1~u14.04+mos2) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.9) ...
+Collecting stdeb
+/usr/share/python-wheels/requests-2.9.1-py2.py3-none-any.whl/requests/packages/urllib3/util/ssl_.py:315: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning.
+/usr/share/python-wheels/requests-2.9.1-py2.py3-none-any.whl/requests/packages/urllib3/util/ssl_.py:120: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  Downloading stdeb-0.8.5.tar.gz (51kB)
+Building wheels for collected packages: stdeb
+  Running setup.py bdist_wheel for stdeb: started
+  Running setup.py bdist_wheel for stdeb: finished with status 'error'
+  Complete output from command /usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-Nrnrqb/stdeb/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" bdist_wheel -d /tmp/tmpypMSfJpip-wheel- --python-tag cp27:
+  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+     or: -c --help [cmd1 cmd2 ...]
+     or: -c --help-commands
+     or: -c cmd --help
+  
+  error: invalid command 'bdist_wheel'
+  
+  ----------------------------------------
+  Failed building wheel for stdeb
+  Running setup.py clean for stdeb
+Failed to build stdeb
+Installing collected packages: stdeb
+  Running setup.py install for stdeb: started
+    Running setup.py install for stdeb: finished with status 'done'
+Successfully installed stdeb-0.8.5
+/usr/share/python-wheels/requests-2.9.1-py2.py3-none-any.whl/requests/packages/urllib3/util/ssl_.py:120: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+You are using pip version 8.1.1, however version 8.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+--2016-08-18 07:56:04--  http://mirrors.kernel.org/ubuntu/pool/universe/p/python-iniparse/python-iniparse_0.4-2.1build1_all.deb
+Resolving mirrors.kernel.org (mirrors.kernel.org)... 149.20.37.36, 198.145.20.143, 2620:3:c000:a:0:1994:3:14, ...
+Connecting to mirrors.kernel.org (mirrors.kernel.org)|149.20.37.36|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21504 (21K) [application/octet-stream]
+Saving to: ‘python-iniparse_0.4-2.1build1_all.deb’
+
+     0K .......... .......... .                               100%  301K=0.07s
+
+2016-08-18 07:56:04 (301 KB/s) - ‘python-iniparse_0.4-2.1build1_all.deb’ saved [21504/21504]
+
+--2016-08-18 07:56:04--  http://archive.ubuntu.com/ubuntu/pool/universe/c/crudini/crudini_0.3-1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.152, 91.189.88.149, 91.189.88.161, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.152|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6298 (6.2K) [application/x-debian-package]
+Saving to: ‘crudini_0.3-1_amd64.deb’
+
+     0K ......                                                100% 17.9M=0s
+
+2016-08-18 07:56:04 (17.9 MB/s) - ‘crudini_0.3-1_amd64.deb’ saved [6298/6298]
+
+Selecting previously unselected package python-iniparse.
+(Reading database ... 122657 files and directories currently installed.)
+Preparing to unpack python-iniparse_0.4-2.1build1_all.deb ...
+Unpacking python-iniparse (0.4-2.1build1) ...
+Selecting previously unselected package crudini.
+Preparing to unpack crudini_0.3-1_amd64.deb ...
+Unpacking crudini (0.3-1) ...
+Setting up python-iniparse (0.4-2.1build1) ...
+Setting up crudini (0.3-1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+dpkg: warning: ignoring request to remove python-tackerclient which isn't installed
+Cloning into 'tacker-client'...
+running bdist_deb
+running sdist_dsc
+running egg_info
+creating python_tackerclient.egg-info
+writing requirements to python_tackerclient.egg-info/requires.txt
+writing python_tackerclient.egg-info/PKG-INFO
+writing top-level names to python_tackerclient.egg-info/top_level.txt
+writing dependency_links to python_tackerclient.egg-info/dependency_links.txt
+writing entry points to python_tackerclient.egg-info/entry_points.txt
+writing pbr to python_tackerclient.egg-info/pbr.json
+[pbr] Processing SOURCES.txt
+writing manifest file 'python_tackerclient.egg-info/SOURCES.txt'
+[pbr] In git context, generating filelist from git
+warning: no files found matching 'AUTHORS'
+warning: no files found matching 'ChangeLog'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'AUTHORS'
+warning: no files found matching 'ChangeLog'
+warning: no files found matching '*' under directory 'tests'
+writing manifest file 'python_tackerclient.egg-info/SOURCES.txt'
+running sdist
+[pbr] Writing ChangeLog
+[pbr] Generating ChangeLog
+[pbr] ChangeLog complete (0.0s)
+[pbr] Generating AUTHORS
+[pbr] AUTHORS complete (0.0s)
+running check
+creating python-tackerclient-0.0.1.dev48
+creating python-tackerclient-0.0.1.dev48/doc
+creating python-tackerclient-0.0.1.dev48/doc/source
+creating python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+creating python-tackerclient-0.0.1.dev48/tackerclient
+creating python-tackerclient-0.0.1.dev48/tackerclient/common
+creating python-tackerclient-0.0.1.dev48/tackerclient/openstack
+creating python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+creating python-tackerclient-0.0.1.dev48/tackerclient/tacker
+creating python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0
+creating python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc
+creating python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc_classifier
+creating python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+creating python-tackerclient-0.0.1.dev48/tackerclient/tests
+creating python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+creating python-tackerclient-0.0.1.dev48/tackerclient/tests/unit/vm
+creating python-tackerclient-0.0.1.dev48/tackerclient/v1_0
+creating python-tackerclient-0.0.1.dev48/tools
+making hard links in python-tackerclient-0.0.1.dev48...
+hard linking .coveragerc -> python-tackerclient-0.0.1.dev48
+hard linking .pylintrc -> python-tackerclient-0.0.1.dev48
+hard linking .testr.conf -> python-tackerclient-0.0.1.dev48
+hard linking HACKING.rst -> python-tackerclient-0.0.1.dev48
+hard linking LICENSE -> python-tackerclient-0.0.1.dev48
+hard linking MANIFEST.in -> python-tackerclient-0.0.1.dev48
+hard linking README.rst -> python-tackerclient-0.0.1.dev48
+hard linking openstack-common.conf -> python-tackerclient-0.0.1.dev48
+hard linking requirements.txt -> python-tackerclient-0.0.1.dev48
+hard linking setup.cfg -> python-tackerclient-0.0.1.dev48
+hard linking setup.py -> python-tackerclient-0.0.1.dev48
+hard linking tacker_test.sh -> python-tackerclient-0.0.1.dev48
+hard linking test-requirements.txt -> python-tackerclient-0.0.1.dev48
+hard linking tox.ini -> python-tackerclient-0.0.1.dev48
+hard linking doc/source/conf.py -> python-tackerclient-0.0.1.dev48/doc/source
+hard linking doc/source/index.rst -> python-tackerclient-0.0.1.dev48/doc/source
+hard linking python_tackerclient.egg-info/PKG-INFO -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/SOURCES.txt -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/dependency_links.txt -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/entry_points.txt -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/not-zip-safe -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/pbr.json -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/requires.txt -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking python_tackerclient.egg-info/top_level.txt -> python-tackerclient-0.0.1.dev48/python_tackerclient.egg-info
+hard linking tackerclient/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient
+hard linking tackerclient/client.py -> python-tackerclient-0.0.1.dev48/tackerclient
+hard linking tackerclient/i18n.py -> python-tackerclient-0.0.1.dev48/tackerclient
+hard linking tackerclient/shell.py -> python-tackerclient-0.0.1.dev48/tackerclient
+hard linking tackerclient/version.py -> python-tackerclient-0.0.1.dev48/tackerclient
+hard linking tackerclient/common/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/clientmanager.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/command.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/constants.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/exceptions.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/extension.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/serializer.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/utils.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/common/validators.py -> python-tackerclient-0.0.1.dev48/tackerclient/common
+hard linking tackerclient/openstack/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack
+hard linking tackerclient/openstack/common/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/openstack/common/gettextutils.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/openstack/common/importutils.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/openstack/common/jsonutils.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/openstack/common/strutils.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/openstack/common/timeutils.py -> python-tackerclient-0.0.1.dev48/tackerclient/openstack/common
+hard linking tackerclient/tacker/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker
+hard linking tackerclient/tacker/client.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker
+hard linking tackerclient/tacker/v1_0/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0
+hard linking tackerclient/tacker/v1_0/extension.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0
+hard linking tackerclient/tacker/v1_0/sfc/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc
+hard linking tackerclient/tacker/v1_0/sfc/sfc.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc
+hard linking tackerclient/tacker/v1_0/sfc_classifier/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc_classifier
+hard linking tackerclient/tacker/v1_0/sfc_classifier/sfc_classifier.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/sfc_classifier
+hard linking tackerclient/tacker/v1_0/vm/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+hard linking tackerclient/tacker/v1_0/vm/device.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+hard linking tackerclient/tacker/v1_0/vm/device_template.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+hard linking tackerclient/tacker/v1_0/vm/vnf.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+hard linking tackerclient/tacker/v1_0/vm/vnfd.py -> python-tackerclient-0.0.1.dev48/tackerclient/tacker/v1_0/vm
+hard linking tackerclient/tests/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests
+hard linking tackerclient/tests/unit/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_auth.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_casual_args.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_cli10.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_cli10_extensions.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_command_meta.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_http.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_shell.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_ssl.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_utils.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/test_validators.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit
+hard linking tackerclient/tests/unit/vm/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit/vm
+hard linking tackerclient/tests/unit/vm/test_cli10_device.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit/vm
+hard linking tackerclient/tests/unit/vm/test_cli10_device_template.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit/vm
+hard linking tackerclient/tests/unit/vm/test_cli10_service_instance.py -> python-tackerclient-0.0.1.dev48/tackerclient/tests/unit/vm
+hard linking tackerclient/v1_0/__init__.py -> python-tackerclient-0.0.1.dev48/tackerclient/v1_0
+hard linking tackerclient/v1_0/client.py -> python-tackerclient-0.0.1.dev48/tackerclient/v1_0
+hard linking tools/tacker.bash_completion -> python-tackerclient-0.0.1.dev48/tools
+copying setup.cfg -> python-tackerclient-0.0.1.dev48
+Writing python-tackerclient-0.0.1.dev48/setup.cfg
+creating dist
+Creating tar archive
+removing 'python-tackerclient-0.0.1.dev48' (and everything under it)
+CALLING dpkg-source -b python-tackerclient-0.0.1~dev48 python-tackerclient_0.0.1~dev48.orig.tar.gz (in dir deb_dist)
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building python-tackerclient using existing ./python-tackerclient_0.0.1~dev48.orig.tar.gz
+dpkg-source: info: building python-tackerclient in python-tackerclient_0.0.1~dev48-1.debian.tar.gz
+dpkg-source: info: building python-tackerclient in python-tackerclient_0.0.1~dev48-1.dsc
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package python-tackerclient
+dpkg-buildpackage: source version 0.0.1~dev48-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by OpenStack Networking Project <openstack-dev@lists.openstack.org>
+ dpkg-source --before-build python-tackerclient-0.0.1~dev48
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+   dh_clean -O--buildsystem=python_distutils
+ dpkg-source -b python-tackerclient-0.0.1~dev48
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building python-tackerclient using existing ./python-tackerclient_0.0.1~dev48.orig.tar.gz
+dpkg-source: info: building python-tackerclient in python-tackerclient_0.0.1~dev48-1.debian.tar.gz
+dpkg-source: info: building python-tackerclient in python-tackerclient_0.0.1~dev48-1.dsc
+ dpkg-genchanges -S -sa >../python-tackerclient_0.0.1~dev48-1_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build python-tackerclient-0.0.1~dev48
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: full upload (original source is included)
+dpkg-source: warning: extracting unsigned source package (python-tackerclient_0.0.1~dev48-1.dsc)
+dpkg-source: info: extracting python-tackerclient in python-tackerclient-0.0.1~dev48
+dpkg-source: info: unpacking python-tackerclient_0.0.1~dev48.orig.tar.gz
+dpkg-source: info: unpacking python-tackerclient_0.0.1~dev48-1.debian.tar.gz
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package python-tackerclient
+dpkg-buildpackage: source version 0.0.1~dev48-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by OpenStack Networking Project <openstack-dev@lists.openstack.org>
+dpkg-buildpackage: host architecture amd64
+ dpkg-source --before-build python-tackerclient-0.0.1~dev48
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+   dh_clean -O--buildsystem=python_distutils
+ debian/rules build
+dh build --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   dh_auto_configure -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_build
+make[1]: Entering directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+python setup.py build --force
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/tackerclient
+creating build/lib.linux-x86_64-2.7/tackerclient/openstack
+copying tackerclient/openstack/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack
+creating build/lib.linux-x86_64-2.7/tackerclient/tests
+creating build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+creating build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm
+copying tackerclient/tests/unit/vm/test_cli10_device_template.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm
+copying tackerclient/tests/unit/vm/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm
+copying tackerclient/tests/unit/vm/test_cli10_service_instance.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm
+copying tackerclient/tests/unit/vm/test_cli10_device.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm
+creating build/lib.linux-x86_64-2.7/tackerclient/tacker
+creating build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0
+creating build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc_classifier
+copying tackerclient/tacker/v1_0/sfc_classifier/sfc_classifier.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc_classifier
+copying tackerclient/tacker/v1_0/sfc_classifier/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc_classifier
+creating build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/exceptions.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/validators.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/extension.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/clientmanager.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/command.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/constants.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/serializer.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/common/utils.py -> build/lib.linux-x86_64-2.7/tackerclient/common
+copying tackerclient/version.py -> build/lib.linux-x86_64-2.7/tackerclient
+copying tackerclient/shell.py -> build/lib.linux-x86_64-2.7/tackerclient
+copying tackerclient/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient
+copying tackerclient/client.py -> build/lib.linux-x86_64-2.7/tackerclient
+copying tackerclient/i18n.py -> build/lib.linux-x86_64-2.7/tackerclient
+creating build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/importutils.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/gettextutils.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/jsonutils.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/timeutils.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/openstack/common/strutils.py -> build/lib.linux-x86_64-2.7/tackerclient/openstack/common
+copying tackerclient/tests/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tests
+creating build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+copying tackerclient/tacker/v1_0/vm/device.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+copying tackerclient/tacker/v1_0/vm/device_template.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+copying tackerclient/tacker/v1_0/vm/vnf.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+copying tackerclient/tacker/v1_0/vm/vnfd.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+copying tackerclient/tacker/v1_0/vm/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm
+creating build/lib.linux-x86_64-2.7/tackerclient/v1_0
+copying tackerclient/v1_0/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/v1_0
+copying tackerclient/v1_0/client.py -> build/lib.linux-x86_64-2.7/tackerclient/v1_0
+creating build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc
+copying tackerclient/tacker/v1_0/sfc/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc
+copying tackerclient/tacker/v1_0/sfc/sfc.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc
+copying tackerclient/tests/unit/test_casual_args.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_command_meta.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_ssl.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_utils.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_cli10.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_cli10_extensions.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_auth.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_shell.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_http.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tests/unit/test_validators.py -> build/lib.linux-x86_64-2.7/tackerclient/tests/unit
+copying tackerclient/tacker/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker
+copying tackerclient/tacker/client.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker
+copying tackerclient/tacker/v1_0/__init__.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0
+copying tackerclient/tacker/v1_0/extension.py -> build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0
+running egg_info
+writing requirements to python_tackerclient.egg-info/requires.txt
+writing python_tackerclient.egg-info/PKG-INFO
+writing top-level names to python_tackerclient.egg-info/top_level.txt
+writing dependency_links to python_tackerclient.egg-info/dependency_links.txt
+writing entry points to python_tackerclient.egg-info/entry_points.txt
+writing pbr to python_tackerclient.egg-info/pbr.json
+[pbr] Reusing existing SOURCES.txt
+make[1]: Leaving directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+   dh_auto_test -O--buildsystem=python_distutils
+ fakeroot debian/rules binary
+dh binary --with python2 --buildsystem=python_distutils
+   dh_testroot -O--buildsystem=python_distutils
+   dh_prep -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_install
+make[1]: Entering directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+python setup.py install --force --root=debian/python-python-tackerclient --no-compile -O0 --install-layout=deb  
+running install
+[pbr] Writing ChangeLog
+[pbr] Generating ChangeLog
+[pbr] ChangeLog complete (0.0s)
+[pbr] Generating AUTHORS
+[pbr] AUTHORS complete (0.0s)
+running build
+running build_py
+running egg_info
+writing requirements to python_tackerclient.egg-info/requires.txt
+writing python_tackerclient.egg-info/PKG-INFO
+writing top-level names to python_tackerclient.egg-info/top_level.txt
+writing dependency_links to python_tackerclient.egg-info/dependency_links.txt
+writing entry points to python_tackerclient.egg-info/entry_points.txt
+writing pbr to python_tackerclient.egg-info/pbr.json
+[pbr] Reusing existing SOURCES.txt
+running install_lib
+creating debian/python-python-tackerclient
+creating debian/python-python-tackerclient/usr
+creating debian/python-python-tackerclient/usr/lib
+creating debian/python-python-tackerclient/usr/lib/python2.7
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+copying build/lib.linux-x86_64-2.7/tackerclient/version.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+copying build/lib.linux-x86_64-2.7/tackerclient/shell.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/client.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc/sfc.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm/device.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm/device_template.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm/vnf.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm/vnfd.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/vm/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/extension.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc_classifier/sfc_classifier.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tackerclient/tacker/v1_0/sfc_classifier/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tacker/v1_0/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tackerclient/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+copying build/lib.linux-x86_64-2.7/tackerclient/client.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/importutils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/gettextutils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/jsonutils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/timeutils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/openstack/common/strutils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/openstack/common
+copying build/lib.linux-x86_64-2.7/tackerclient/i18n.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/v1_0
+copying build/lib.linux-x86_64-2.7/tackerclient/v1_0/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/v1_0
+copying build/lib.linux-x86_64-2.7/tackerclient/v1_0/client.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/v1_0
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/exceptions.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/validators.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/extension.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/clientmanager.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/command.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/constants.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/serializer.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+copying build/lib.linux-x86_64-2.7/tackerclient/common/utils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/common
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_casual_args.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_command_meta.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_ssl.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_utils.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_cli10.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+creating debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm/test_cli10_device_template.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm/test_cli10_service_instance.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/vm/test_cli10_device.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_cli10_extensions.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_auth.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_shell.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_http.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/unit/test_validators.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests/unit
+copying build/lib.linux-x86_64-2.7/tackerclient/tests/__init__.py -> debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/tackerclient/tests
+running install_egg_info
+Copying python_tackerclient.egg-info to debian/python-python-tackerclient/usr/lib/python2.7/dist-packages/python_tackerclient-0.0.1.dev48.egg-info
+Skipping SOURCES.txt
+running install_scripts
+Installing tacker script to debian/python-python-tackerclient/usr/bin
+make[1]: Leaving directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+   dh_installdocs -O--buildsystem=python_distutils
+   dh_installchangelogs -O--buildsystem=python_distutils
+   debian/rules override_dh_python2
+make[1]: Entering directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+dh_python2 --no-guessing-versions
+make[1]: Leaving directory `/root/tacker-client/deb_dist/python-tackerclient-0.0.1~dev48'
+   dh_perl -O--buildsystem=python_distutils
+   dh_link -O--buildsystem=python_distutils
+   dh_compress -O--buildsystem=python_distutils
+   dh_fixperms -O--buildsystem=python_distutils
+   dh_installdeb -O--buildsystem=python_distutils
+   dh_gencontrol -O--buildsystem=python_distutils
+dpkg-gencontrol: warning: package python-python-tackerclient: unused substitution variable ${python:Versions}
+dpkg-gencontrol: warning: package python-python-tackerclient: unused substitution variable ${python:Provides}
+   dh_md5sums -O--buildsystem=python_distutils
+   dh_builddeb -O--buildsystem=python_distutils
+dpkg-deb: building package `python-python-tackerclient' in `../python-python-tackerclient_0.0.1~dev48-1_all.deb'.
+ dpkg-genchanges -b >../python-tackerclient_0.0.1~dev48-1_amd64.changes
+dpkg-genchanges: binary-only upload - not including any source code
+ dpkg-source --after-build python-tackerclient-0.0.1~dev48
+dpkg-source: info: using options from python-tackerclient-0.0.1~dev48/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: binary only upload (no source included)
+Selecting previously unselected package python-python-tackerclient.
+(Reading database ... 122686 files and directories currently installed.)
+Preparing to unpack .../python-python-tackerclient_0.0.1~dev48-1_all.deb ...
+Unpacking python-python-tackerclient (0.0.1~dev48-1) ...
+Setting up python-python-tackerclient (0.0.1~dev48-1) ...
+Cloning into 'jsonrpclib'...
+dpkg: warning: ignoring request to remove python-jsonrpclib which isn't installed
+running bdist_deb
+running sdist_dsc
+running sdist
+running check
+reading manifest template 'MANIFEST.in'
+warning: sdist: standard file not found: should have one of README, README.txt
+
+writing manifest file 'MANIFEST'
+creating jsonrpclib-0.1.7
+creating jsonrpclib-0.1.7/jsonrpclib
+making hard links in jsonrpclib-0.1.7...
+hard linking LICENSE.txt -> jsonrpclib-0.1.7
+hard linking README.md -> jsonrpclib-0.1.7
+hard linking dev-requirements.txt -> jsonrpclib-0.1.7
+hard linking setup.py -> jsonrpclib-0.1.7
+hard linking jsonrpclib/SimpleJSONRPCServer.py -> jsonrpclib-0.1.7/jsonrpclib
+hard linking jsonrpclib/__init__.py -> jsonrpclib-0.1.7/jsonrpclib
+hard linking jsonrpclib/config.py -> jsonrpclib-0.1.7/jsonrpclib
+hard linking jsonrpclib/history.py -> jsonrpclib-0.1.7/jsonrpclib
+hard linking jsonrpclib/jsonclass.py -> jsonrpclib-0.1.7/jsonrpclib
+hard linking jsonrpclib/jsonrpc.py -> jsonrpclib-0.1.7/jsonrpclib
+creating dist
+Creating tar archive
+removing 'jsonrpclib-0.1.7' (and everything under it)
+CALLING dpkg-source -b jsonrpclib-0.1.7 jsonrpclib_0.1.7.orig.tar.gz (in dir deb_dist)
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building jsonrpclib using existing ./jsonrpclib_0.1.7.orig.tar.gz
+dpkg-source: info: building jsonrpclib in jsonrpclib_0.1.7-1.debian.tar.gz
+dpkg-source: info: building jsonrpclib in jsonrpclib_0.1.7-1.dsc
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package jsonrpclib
+dpkg-buildpackage: source version 0.1.7-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Josh Marshall <catchjosh@gmail.com>
+ dpkg-source --before-build jsonrpclib-0.1.7
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+   dh_clean -O--buildsystem=python_distutils
+ dpkg-source -b jsonrpclib-0.1.7
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building jsonrpclib using existing ./jsonrpclib_0.1.7.orig.tar.gz
+dpkg-source: info: building jsonrpclib in jsonrpclib_0.1.7-1.debian.tar.gz
+dpkg-source: info: building jsonrpclib in jsonrpclib_0.1.7-1.dsc
+ dpkg-genchanges -S -sa >../jsonrpclib_0.1.7-1_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build jsonrpclib-0.1.7
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: full upload (original source is included)
+dpkg-source: warning: extracting unsigned source package (jsonrpclib_0.1.7-1.dsc)
+dpkg-source: info: extracting jsonrpclib in jsonrpclib-0.1.7
+dpkg-source: info: unpacking jsonrpclib_0.1.7.orig.tar.gz
+dpkg-source: info: unpacking jsonrpclib_0.1.7-1.debian.tar.gz
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package jsonrpclib
+dpkg-buildpackage: source version 0.1.7-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Josh Marshall <catchjosh@gmail.com>
+dpkg-buildpackage: host architecture amd64
+ dpkg-source --before-build jsonrpclib-0.1.7
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+   dh_clean -O--buildsystem=python_distutils
+ debian/rules build
+dh build --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   dh_auto_configure -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_build
+make[1]: Entering directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+python setup.py build --force
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/config.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/SimpleJSONRPCServer.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/__init__.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/jsonrpc.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/jsonclass.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+copying jsonrpclib/history.py -> build/lib.linux-x86_64-2.7/jsonrpclib
+make[1]: Leaving directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+   dh_auto_test -O--buildsystem=python_distutils
+ fakeroot debian/rules binary
+dh binary --with python2 --buildsystem=python_distutils
+   dh_testroot -O--buildsystem=python_distutils
+   dh_prep -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_install
+make[1]: Entering directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+python setup.py install --force --root=debian/python-jsonrpclib --no-compile -O0 --install-layout=deb  
+running install
+running build
+running build_py
+running install_lib
+creating debian/python-jsonrpclib
+creating debian/python-jsonrpclib/usr
+creating debian/python-jsonrpclib/usr/lib
+creating debian/python-jsonrpclib/usr/lib/python2.7
+creating debian/python-jsonrpclib/usr/lib/python2.7/dist-packages
+creating debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/config.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/SimpleJSONRPCServer.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/__init__.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/jsonrpc.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/jsonclass.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+copying build/lib.linux-x86_64-2.7/jsonrpclib/history.py -> debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib
+running install_egg_info
+Writing debian/python-jsonrpclib/usr/lib/python2.7/dist-packages/jsonrpclib-0.1.7.egg-info
+make[1]: Leaving directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+   dh_installdocs -O--buildsystem=python_distutils
+   dh_installchangelogs -O--buildsystem=python_distutils
+   debian/rules override_dh_python2
+make[1]: Entering directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+dh_python2 --no-guessing-versions
+make[1]: Leaving directory `/root/jsonrpclib/deb_dist/jsonrpclib-0.1.7'
+   dh_perl -O--buildsystem=python_distutils
+   dh_link -O--buildsystem=python_distutils
+   dh_compress -O--buildsystem=python_distutils
+   dh_fixperms -O--buildsystem=python_distutils
+   dh_installdeb -O--buildsystem=python_distutils
+   dh_gencontrol -O--buildsystem=python_distutils
+dpkg-gencontrol: warning: package python-jsonrpclib: unused substitution variable ${python:Provides}
+dpkg-gencontrol: warning: package python-jsonrpclib: unused substitution variable ${python:Versions}
+   dh_md5sums -O--buildsystem=python_distutils
+   dh_builddeb -O--buildsystem=python_distutils
+dpkg-deb: building package `python-jsonrpclib' in `../python-jsonrpclib_0.1.7-1_all.deb'.
+ dpkg-genchanges -b >../jsonrpclib_0.1.7-1_amd64.changes
+dpkg-genchanges: binary-only upload - not including any source code
+ dpkg-source --after-build jsonrpclib-0.1.7
+dpkg-source: info: using options from jsonrpclib-0.1.7/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: binary only upload (no source included)
+Selecting previously unselected package python-jsonrpclib.
+(Reading database ... 122762 files and directories currently installed.)
+Preparing to unpack python-jsonrpclib_0.1.7-1_all.deb ...
+Unpacking python-jsonrpclib (0.1.7-1) ...
+Setting up python-jsonrpclib (0.1.7-1) ...
+Cloning into 'tacker-server'...
+patching file setup.cfg
+dpkg: warning: ignoring request to remove python-tacker which isn't installed
+running bdist_deb
+running sdist_dsc
+running egg_info
+creating tacker.egg-info
+writing requirements to tacker.egg-info/requires.txt
+writing tacker.egg-info/PKG-INFO
+writing top-level names to tacker.egg-info/top_level.txt
+writing dependency_links to tacker.egg-info/dependency_links.txt
+writing entry points to tacker.egg-info/entry_points.txt
+writing pbr to tacker.egg-info/pbr.json
+[pbr] Processing SOURCES.txt
+writing manifest file 'tacker.egg-info/SOURCES.txt'
+[pbr] In git context, generating filelist from git
+warning: no files found matching 'AUTHORS'
+warning: no files found matching 'ChangeLog'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'AUTHORS'
+warning: no files found matching 'ChangeLog'
+warning: no previously-included files found matching '.gitignore'
+warning: no previously-included files found matching '.gitreview'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+writing manifest file 'tacker.egg-info/SOURCES.txt'
+running sdist
+[pbr] Writing ChangeLog
+[pbr] Generating ChangeLog
+[pbr] ChangeLog complete (0.0s)
+[pbr] Generating AUTHORS
+[pbr] AUTHORS complete (0.0s)
+running check
+creating tacker-2014.2.0.dev192
+creating tacker-2014.2.0.dev192/apex
+creating tacker-2014.2.0.dev192/apex/rhel
+creating tacker-2014.2.0.dev192/apex/systemd
+creating tacker-2014.2.0.dev192/devstack
+creating tacker-2014.2.0.dev192/devstack/lib
+creating tacker-2014.2.0.dev192/devstack/samples
+creating tacker-2014.2.0.dev192/doc
+creating tacker-2014.2.0.dev192/doc/source
+creating tacker-2014.2.0.dev192/doc/source/devref
+creating tacker-2014.2.0.dev192/doc/source/man
+creating tacker-2014.2.0.dev192/doc/source/policies
+creating tacker-2014.2.0.dev192/etc
+creating tacker-2014.2.0.dev192/etc/init.d
+creating tacker-2014.2.0.dev192/etc/tacker
+creating tacker-2014.2.0.dev192/etc/tacker/rootwrap.d
+creating tacker-2014.2.0.dev192/tacker
+creating tacker-2014.2.0.dev192/tacker.egg-info
+creating tacker-2014.2.0.dev192/tacker/agent
+creating tacker-2014.2.0.dev192/tacker/agent/common
+creating tacker-2014.2.0.dev192/tacker/agent/linux
+creating tacker-2014.2.0.dev192/tacker/api
+creating tacker-2014.2.0.dev192/tacker/api/v1
+creating tacker-2014.2.0.dev192/tacker/api/views
+creating tacker-2014.2.0.dev192/tacker/cmd
+creating tacker-2014.2.0.dev192/tacker/common
+creating tacker-2014.2.0.dev192/tacker/db
+creating tacker-2014.2.0.dev192/tacker/db/migration
+creating tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations
+creating tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+creating tacker-2014.2.0.dev192/tacker/db/sfc
+creating tacker-2014.2.0.dev192/tacker/db/sfc_classifier
+creating tacker-2014.2.0.dev192/tacker/db/vm
+creating tacker-2014.2.0.dev192/tacker/extensions
+creating tacker-2014.2.0.dev192/tacker/hacking
+creating tacker-2014.2.0.dev192/tacker/locale
+creating tacker-2014.2.0.dev192/tacker/openstack
+creating tacker-2014.2.0.dev192/tacker/openstack/common
+creating tacker-2014.2.0.dev192/tacker/openstack/common/cache
+creating tacker-2014.2.0.dev192/tacker/openstack/common/cache/_backends
+creating tacker-2014.2.0.dev192/tacker/openstack/common/db
+creating tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+creating tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+creating tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+creating tacker-2014.2.0.dev192/tacker/plugins
+creating tacker-2014.2.0.dev192/tacker/plugins/common
+creating tacker-2014.2.0.dev192/tacker/services
+creating tacker-2014.2.0.dev192/tacker/sfc
+creating tacker-2014.2.0.dev192/tacker/sfc/drivers
+creating tacker-2014.2.0.dev192/tacker/sfc_classifier
+creating tacker-2014.2.0.dev192/tacker/sfc_classifier/drivers
+creating tacker-2014.2.0.dev192/tacker/tests
+creating tacker-2014.2.0.dev192/tacker/tests/contrib
+creating tacker-2014.2.0.dev192/tacker/tests/etc
+creating tacker-2014.2.0.dev192/tacker/tests/etc/rootwrap.d
+creating tacker-2014.2.0.dev192/tacker/tests/etc/samples
+creating tacker-2014.2.0.dev192/tacker/tests/functional
+creating tacker-2014.2.0.dev192/tacker/tests/functional/agent
+creating tacker-2014.2.0.dev192/tacker/tests/functional/agent/linux
+creating tacker-2014.2.0.dev192/tacker/tests/functional/vnfd
+creating tacker-2014.2.0.dev192/tacker/tests/unit
+creating tacker-2014.2.0.dev192/tacker/tests/unit/agent
+creating tacker-2014.2.0.dev192/tacker/tests/unit/agent/linux
+creating tacker-2014.2.0.dev192/tacker/tests/unit/db
+creating tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+creating tacker-2014.2.0.dev192/tacker/tests/unit/services
+creating tacker-2014.2.0.dev192/tacker/tests/unit/services/vm
+creating tacker-2014.2.0.dev192/tacker/tests/unit/services/vm/drivers
+creating tacker-2014.2.0.dev192/tacker/tests/unit/services/vm/mgmt_drivers
+creating tacker-2014.2.0.dev192/tacker/tests/unit/vm
+creating tacker-2014.2.0.dev192/tacker/tests/var
+creating tacker-2014.2.0.dev192/tacker/vm
+creating tacker-2014.2.0.dev192/tacker/vm/drivers
+creating tacker-2014.2.0.dev192/tacker/vm/drivers/heat
+creating tacker-2014.2.0.dev192/tacker/vm/drivers/nova
+creating tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers
+creating tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers/openwrt
+creating tacker-2014.2.0.dev192/tools
+making hard links in tacker-2014.2.0.dev192...
+hard linking .coveragerc -> tacker-2014.2.0.dev192
+hard linking .mailmap -> tacker-2014.2.0.dev192
+hard linking .pylintrc -> tacker-2014.2.0.dev192
+hard linking .testr.conf -> tacker-2014.2.0.dev192
+hard linking HACKING.rst -> tacker-2014.2.0.dev192
+hard linking LICENSE -> tacker-2014.2.0.dev192
+hard linking MANIFEST.in -> tacker-2014.2.0.dev192
+hard linking README.rst -> tacker-2014.2.0.dev192
+hard linking TESTING.rst -> tacker-2014.2.0.dev192
+hard linking babel.cfg -> tacker-2014.2.0.dev192
+hard linking openstack-common.conf -> tacker-2014.2.0.dev192
+hard linking requirements.txt -> tacker-2014.2.0.dev192
+hard linking run_tests.sh -> tacker-2014.2.0.dev192
+hard linking setup.cfg -> tacker-2014.2.0.dev192
+hard linking setup.py -> tacker-2014.2.0.dev192
+hard linking test-requirements.txt -> tacker-2014.2.0.dev192
+hard linking tox.ini -> tacker-2014.2.0.dev192
+hard linking apex/rhel/openstack-tacker.spec -> tacker-2014.2.0.dev192/apex/rhel
+hard linking apex/systemd/openstack-tacker.service -> tacker-2014.2.0.dev192/apex/systemd
+hard linking devstack/README.rst -> tacker-2014.2.0.dev192/devstack
+hard linking devstack/plugin.sh -> tacker-2014.2.0.dev192/devstack
+hard linking devstack/settings -> tacker-2014.2.0.dev192/devstack
+hard linking devstack/lib/tacker -> tacker-2014.2.0.dev192/devstack/lib
+hard linking devstack/samples/local.conf.example -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/local.sh.mysql_fix -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/openwrt.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/sample-vnfd.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/vnf_cirros_param_values_ipaddr.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/vnf_cirros_param_values_user_data.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/vnf_cirros_template_ipaddr.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking devstack/samples/vnf_cirros_template_user_data.yaml -> tacker-2014.2.0.dev192/devstack/samples
+hard linking doc/Makefile -> tacker-2014.2.0.dev192/doc
+hard linking doc/pom.xml -> tacker-2014.2.0.dev192/doc
+hard linking doc/source/conf.py -> tacker-2014.2.0.dev192/doc/source
+hard linking doc/source/index.rst -> tacker-2014.2.0.dev192/doc/source
+hard linking doc/source/devref/api_extensions.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/api_layer.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/common.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/db_layer.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/development.environment.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/index.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/mano_api.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/plugin-api.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/devref/rpc_api.rst -> tacker-2014.2.0.dev192/doc/source/devref
+hard linking doc/source/man/neutron-server.rst -> tacker-2014.2.0.dev192/doc/source/man
+hard linking doc/source/policies/dev-process.rst -> tacker-2014.2.0.dev192/doc/source/policies
+hard linking etc/init.d/tacker-server -> tacker-2014.2.0.dev192/etc/init.d
+hard linking etc/tacker/api-paste.ini -> tacker-2014.2.0.dev192/etc/tacker
+hard linking etc/tacker/policy.json -> tacker-2014.2.0.dev192/etc/tacker
+hard linking etc/tacker/rootwrap.conf -> tacker-2014.2.0.dev192/etc/tacker
+hard linking etc/tacker/tacker.conf -> tacker-2014.2.0.dev192/etc/tacker
+hard linking etc/tacker/rootwrap.d/servicevm.filters -> tacker-2014.2.0.dev192/etc/tacker/rootwrap.d
+hard linking tacker/__init__.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/auth.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/context.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/hooks.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/i18n.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/manager.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/oslo_service.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/policy.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/service.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/version.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker/wsgi.py -> tacker-2014.2.0.dev192/tacker
+hard linking tacker.egg-info/PKG-INFO -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/SOURCES.txt -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/dependency_links.txt -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/entry_points.txt -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/not-zip-safe -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/pbr.json -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/requires.txt -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker.egg-info/top_level.txt -> tacker-2014.2.0.dev192/tacker.egg-info
+hard linking tacker/agent/__init__.py -> tacker-2014.2.0.dev192/tacker/agent
+hard linking tacker/agent/rpc.py -> tacker-2014.2.0.dev192/tacker/agent
+hard linking tacker/agent/common/__init__.py -> tacker-2014.2.0.dev192/tacker/agent/common
+hard linking tacker/agent/common/config.py -> tacker-2014.2.0.dev192/tacker/agent/common
+hard linking tacker/agent/linux/__init__.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/async_process.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/daemon.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/external_process.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/interface.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/ip_lib.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/polling.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/agent/linux/utils.py -> tacker-2014.2.0.dev192/tacker/agent/linux
+hard linking tacker/api/__init__.py -> tacker-2014.2.0.dev192/tacker/api
+hard linking tacker/api/api_common.py -> tacker-2014.2.0.dev192/tacker/api
+hard linking tacker/api/extensions.py -> tacker-2014.2.0.dev192/tacker/api
+hard linking tacker/api/versions.py -> tacker-2014.2.0.dev192/tacker/api
+hard linking tacker/api/v1/__init__.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/v1/attributes.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/v1/base.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/v1/resource.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/v1/resource_helper.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/v1/router.py -> tacker-2014.2.0.dev192/tacker/api/v1
+hard linking tacker/api/views/__init__.py -> tacker-2014.2.0.dev192/tacker/api/views
+hard linking tacker/api/views/versions.py -> tacker-2014.2.0.dev192/tacker/api/views
+hard linking tacker/cmd/__init__.py -> tacker-2014.2.0.dev192/tacker/cmd
+hard linking tacker/cmd/server.py -> tacker-2014.2.0.dev192/tacker/cmd
+hard linking tacker/common/__init__.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/config.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/constants.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/driver_manager.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/exceptions.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/log.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/rpc.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/rpc_compat.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/test_lib.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/topics.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/common/utils.py -> tacker-2014.2.0.dev192/tacker/common
+hard linking tacker/db/__init__.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/api.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/db_base.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/model_base.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/models_v1.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/sqlalchemyutils.py -> tacker-2014.2.0.dev192/tacker/db
+hard linking tacker/db/migration/README -> tacker-2014.2.0.dev192/tacker/db/migration
+hard linking tacker/db/migration/__init__.py -> tacker-2014.2.0.dev192/tacker/db/migration
+hard linking tacker/db/migration/alembic.ini -> tacker-2014.2.0.dev192/tacker/db/migration
+hard linking tacker/db/migration/cli.py -> tacker-2014.2.0.dev192/tacker/db/migration
+hard linking tacker/db/migration/alembic_migrations/__init__.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations
+hard linking tacker/db/migration/alembic_migrations/env.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations
+hard linking tacker/db/migration/alembic_migrations/script.py.mako -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations
+hard linking tacker/db/migration/alembic_migrations/versions/13c0e0661015_add_descrition_to_vnf.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/1c6b0d82afcd_servicevm_framework.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/4c31092895b8_remove_service_instance.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/5958429bcb3c_modify_datatype_of_value.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/81ffa86020d_rpc_proxy.py -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/HEAD -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/migration/alembic_migrations/versions/README -> tacker-2014.2.0.dev192/tacker/db/migration/alembic_migrations/versions
+hard linking tacker/db/sfc/__init__.py -> tacker-2014.2.0.dev192/tacker/db/sfc
+hard linking tacker/db/sfc/sfc_db.py -> tacker-2014.2.0.dev192/tacker/db/sfc
+hard linking tacker/db/sfc_classifier/__init__.py -> tacker-2014.2.0.dev192/tacker/db/sfc_classifier
+hard linking tacker/db/sfc_classifier/sfc_classifier_db.py -> tacker-2014.2.0.dev192/tacker/db/sfc_classifier
+hard linking tacker/db/vm/__init__.py -> tacker-2014.2.0.dev192/tacker/db/vm
+hard linking tacker/db/vm/proxy_db.py -> tacker-2014.2.0.dev192/tacker/db/vm
+hard linking tacker/db/vm/vm_db.py -> tacker-2014.2.0.dev192/tacker/db/vm
+hard linking tacker/extensions/__init__.py -> tacker-2014.2.0.dev192/tacker/extensions
+hard linking tacker/extensions/sfc.py -> tacker-2014.2.0.dev192/tacker/extensions
+hard linking tacker/extensions/sfc_classifier.py -> tacker-2014.2.0.dev192/tacker/extensions
+hard linking tacker/extensions/vnfm.py -> tacker-2014.2.0.dev192/tacker/extensions
+hard linking tacker/hacking/__init__.py -> tacker-2014.2.0.dev192/tacker/hacking
+hard linking tacker/hacking/checks.py -> tacker-2014.2.0.dev192/tacker/hacking
+hard linking tacker/locale/tacker.pot -> tacker-2014.2.0.dev192/tacker/locale
+hard linking tacker/openstack/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack
+hard linking tacker/openstack/common/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/context.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/eventlet_backdoor.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/excutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/fileutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/gettextutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/importutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/jsonutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/local.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/lockutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/log.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/log_handler.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/loopingcall.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/network_utils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/periodic_task.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/policy.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/processutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/service.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/sslutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/strutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/systemd.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/threadgroup.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/timeutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/uuidutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/versionutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common
+hard linking tacker/openstack/common/cache/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/cache
+hard linking tacker/openstack/common/cache/backends.py -> tacker-2014.2.0.dev192/tacker/openstack/common/cache
+hard linking tacker/openstack/common/cache/cache.py -> tacker-2014.2.0.dev192/tacker/openstack/common/cache
+hard linking tacker/openstack/common/cache/_backends/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/cache/_backends
+hard linking tacker/openstack/common/cache/_backends/memory.py -> tacker-2014.2.0.dev192/tacker/openstack/common/cache/_backends
+hard linking tacker/openstack/common/db/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db
+hard linking tacker/openstack/common/db/api.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db
+hard linking tacker/openstack/common/db/exception.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db
+hard linking tacker/openstack/common/db/options.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db
+hard linking tacker/openstack/common/db/sqlalchemy/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/db/sqlalchemy/models.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/db/sqlalchemy/provision.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/db/sqlalchemy/session.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/db/sqlalchemy/test_base.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/db/sqlalchemy/utils.py -> tacker-2014.2.0.dev192/tacker/openstack/common/db/sqlalchemy
+hard linking tacker/openstack/common/fixture/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+hard linking tacker/openstack/common/fixture/config.py -> tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+hard linking tacker/openstack/common/fixture/lockutils.py -> tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+hard linking tacker/openstack/common/fixture/mockpatch.py -> tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+hard linking tacker/openstack/common/fixture/moxstubout.py -> tacker-2014.2.0.dev192/tacker/openstack/common/fixture
+hard linking tacker/openstack/common/middleware/__init__.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/audit.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/base.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/catch_errors.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/correlation_id.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/debug.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/notifier.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/request_id.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/openstack/common/middleware/sizelimit.py -> tacker-2014.2.0.dev192/tacker/openstack/common/middleware
+hard linking tacker/plugins/__init__.py -> tacker-2014.2.0.dev192/tacker/plugins
+hard linking tacker/plugins/common/__init__.py -> tacker-2014.2.0.dev192/tacker/plugins/common
+hard linking tacker/plugins/common/constants.py -> tacker-2014.2.0.dev192/tacker/plugins/common
+hard linking tacker/plugins/common/utils.py -> tacker-2014.2.0.dev192/tacker/plugins/common
+hard linking tacker/services/__init__.py -> tacker-2014.2.0.dev192/tacker/services
+hard linking tacker/services/service_base.py -> tacker-2014.2.0.dev192/tacker/services
+hard linking tacker/sfc/__init__.py -> tacker-2014.2.0.dev192/tacker/sfc
+hard linking tacker/sfc/plugin.py -> tacker-2014.2.0.dev192/tacker/sfc
+hard linking tacker/sfc/drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/sfc/drivers
+hard linking tacker/sfc/drivers/opendaylight.py -> tacker-2014.2.0.dev192/tacker/sfc/drivers
+hard linking tacker/sfc_classifier/__init__.py -> tacker-2014.2.0.dev192/tacker/sfc_classifier
+hard linking tacker/sfc_classifier/plugin.py -> tacker-2014.2.0.dev192/tacker/sfc_classifier
+hard linking tacker/sfc_classifier/drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/sfc_classifier/drivers
+hard linking tacker/sfc_classifier/drivers/netvirtsfc.py -> tacker-2014.2.0.dev192/tacker/sfc_classifier/drivers
+hard linking tacker/tests/__init__.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/base.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/fake_notifier.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/post_mortem_debug.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/tools.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/utils.py -> tacker-2014.2.0.dev192/tacker/tests
+hard linking tacker/tests/contrib/README -> tacker-2014.2.0.dev192/tacker/tests/contrib
+hard linking tacker/tests/contrib/post_test_hook.sh -> tacker-2014.2.0.dev192/tacker/tests/contrib
+hard linking tacker/tests/etc/api-paste.ini.test -> tacker-2014.2.0.dev192/tacker/tests/etc
+hard linking tacker/tests/etc/tacker.conf.test -> tacker-2014.2.0.dev192/tacker/tests/etc
+hard linking tacker/tests/etc/rootwrap.d/tacker.test.filters -> tacker-2014.2.0.dev192/tacker/tests/etc/rootwrap.d
+hard linking tacker/tests/etc/samples/sample_cirros_vnf.yaml -> tacker-2014.2.0.dev192/tacker/tests/etc/samples
+hard linking tacker/tests/etc/samples/sample_cirros_vnf_no_monitoring.yaml -> tacker-2014.2.0.dev192/tacker/tests/etc/samples
+hard linking tacker/tests/functional/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/functional
+hard linking tacker/tests/functional/agent/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/functional/agent
+hard linking tacker/tests/functional/agent/linux/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/functional/agent/linux
+hard linking tacker/tests/functional/vnfd/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/functional/vnfd
+hard linking tacker/tests/functional/vnfd/base.py -> tacker-2014.2.0.dev192/tacker/tests/functional/vnfd
+hard linking tacker/tests/functional/vnfd/test_vnf.py -> tacker-2014.2.0.dev192/tacker/tests/functional/vnfd
+hard linking tacker/tests/functional/vnfd/test_vnfd.py -> tacker-2014.2.0.dev192/tacker/tests/functional/vnfd
+hard linking tacker/tests/unit/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/_test_rootwrap_exec.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/database_stubs.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/extension_stubs.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_agent_rpc.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_api_api_common.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_api_v2.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_api_v2_extension.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_api_v2_resource.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_attributes.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_auth.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_common_log.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_common_utils.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_config.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_db_migration.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_extension_extended_attribute.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_extensions.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_hacking.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_neutron_context.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_policy.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_post_mortem_debug.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/test_wsgi.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/testlib_api.py -> tacker-2014.2.0.dev192/tacker/tests/unit
+hard linking tacker/tests/unit/agent/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/agent
+hard linking tacker/tests/unit/agent/linux/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/agent/linux
+hard linking tacker/tests/unit/agent/linux/test_async_process.py -> tacker-2014.2.0.dev192/tacker/tests/unit/agent/linux
+hard linking tacker/tests/unit/db/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/db
+hard linking tacker/tests/unit/db/base.py -> tacker-2014.2.0.dev192/tacker/tests/unit/db
+hard linking tacker/tests/unit/db/utils.py -> tacker-2014.2.0.dev192/tacker/tests/unit/db
+hard linking tacker/tests/unit/extensions/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+hard linking tacker/tests/unit/extensions/extendedattribute.py -> tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+hard linking tacker/tests/unit/extensions/extensionattribute.py -> tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+hard linking tacker/tests/unit/extensions/foxinsocks.py -> tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+hard linking tacker/tests/unit/extensions/v2attributes.py -> tacker-2014.2.0.dev192/tacker/tests/unit/extensions
+hard linking tacker/tests/unit/services/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/services
+hard linking tacker/tests/unit/services/vm/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/services/vm
+hard linking tacker/tests/unit/services/vm/test_servicevm_extension.py -> tacker-2014.2.0.dev192/tacker/tests/unit/services/vm
+hard linking tacker/tests/unit/services/vm/drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/services/vm/drivers
+hard linking tacker/tests/unit/services/vm/mgmt_drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/services/vm/mgmt_drivers
+hard linking tacker/tests/unit/vm/__init__.py -> tacker-2014.2.0.dev192/tacker/tests/unit/vm
+hard linking tacker/tests/unit/vm/test_plugin.py -> tacker-2014.2.0.dev192/tacker/tests/unit/vm
+hard linking tacker/tests/var/ca.crt -> tacker-2014.2.0.dev192/tacker/tests/var
+hard linking tacker/tests/var/certandkey.pem -> tacker-2014.2.0.dev192/tacker/tests/var
+hard linking tacker/tests/var/certificate.crt -> tacker-2014.2.0.dev192/tacker/tests/var
+hard linking tacker/tests/var/privatekey.key -> tacker-2014.2.0.dev192/tacker/tests/var
+hard linking tacker/vm/__init__.py -> tacker-2014.2.0.dev192/tacker/vm
+hard linking tacker/vm/constants.py -> tacker-2014.2.0.dev192/tacker/vm
+hard linking tacker/vm/hosting_device_scheduler.py -> tacker-2014.2.0.dev192/tacker/vm
+hard linking tacker/vm/monitor.py -> tacker-2014.2.0.dev192/tacker/vm
+hard linking tacker/vm/plugin.py -> tacker-2014.2.0.dev192/tacker/vm
+hard linking tacker/vm/drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/vm/drivers
+hard linking tacker/vm/drivers/abstract_driver.py -> tacker-2014.2.0.dev192/tacker/vm/drivers
+hard linking tacker/vm/drivers/noop.py -> tacker-2014.2.0.dev192/tacker/vm/drivers
+hard linking tacker/vm/drivers/heat/__init__.py -> tacker-2014.2.0.dev192/tacker/vm/drivers/heat
+hard linking tacker/vm/drivers/heat/heat.py -> tacker-2014.2.0.dev192/tacker/vm/drivers/heat
+hard linking tacker/vm/drivers/nova/__init__.py -> tacker-2014.2.0.dev192/tacker/vm/drivers/nova
+hard linking tacker/vm/drivers/nova/nova.py -> tacker-2014.2.0.dev192/tacker/vm/drivers/nova
+hard linking tacker/vm/mgmt_drivers/__init__.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers
+hard linking tacker/vm/mgmt_drivers/abstract_driver.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers
+hard linking tacker/vm/mgmt_drivers/constants.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers
+hard linking tacker/vm/mgmt_drivers/noop.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers
+hard linking tacker/vm/mgmt_drivers/openwrt/__init__.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers/openwrt
+hard linking tacker/vm/mgmt_drivers/openwrt/openwrt.py -> tacker-2014.2.0.dev192/tacker/vm/mgmt_drivers/openwrt
+hard linking tools/check_i18n.py -> tacker-2014.2.0.dev192/tools
+hard linking tools/check_i18n_test_case.txt -> tacker-2014.2.0.dev192/tools
+hard linking tools/clean.sh -> tacker-2014.2.0.dev192/tools
+hard linking tools/i18n_cfg.py -> tacker-2014.2.0.dev192/tools
+hard linking tools/install_venv.py -> tacker-2014.2.0.dev192/tools
+hard linking tools/install_venv_common.py -> tacker-2014.2.0.dev192/tools
+hard linking tools/with_venv.sh -> tacker-2014.2.0.dev192/tools
+copying setup.cfg -> tacker-2014.2.0.dev192
+Writing tacker-2014.2.0.dev192/setup.cfg
+creating dist
+Creating tar archive
+removing 'tacker-2014.2.0.dev192' (and everything under it)
+CALLING dpkg-source -b tacker-2014.2.0~dev192 tacker_2014.2.0~dev192.orig.tar.gz (in dir deb_dist)
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building tacker using existing ./tacker_2014.2.0~dev192.orig.tar.gz
+dpkg-source: info: building tacker in tacker_2014.2.0~dev192-1.debian.tar.gz
+dpkg-source: info: building tacker in tacker_2014.2.0~dev192-1.dsc
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package tacker
+dpkg-buildpackage: source version 2014.2.0~dev192-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by OpenStack <openstack-dev@lists.openstack.org>
+ dpkg-source --before-build tacker-2014.2.0~dev192
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+   dh_clean -O--buildsystem=python_distutils
+ dpkg-source -b tacker-2014.2.0~dev192
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building tacker using existing ./tacker_2014.2.0~dev192.orig.tar.gz
+dpkg-source: info: building tacker in tacker_2014.2.0~dev192-1.debian.tar.gz
+dpkg-source: info: building tacker in tacker_2014.2.0~dev192-1.dsc
+ dpkg-genchanges -S -sa >../tacker_2014.2.0~dev192-1_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build tacker-2014.2.0~dev192
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: full upload (original source is included)
+dpkg-source: warning: extracting unsigned source package (tacker_2014.2.0~dev192-1.dsc)
+dpkg-source: info: extracting tacker in tacker-2014.2.0~dev192
+dpkg-source: info: unpacking tacker_2014.2.0~dev192.orig.tar.gz
+dpkg-source: info: unpacking tacker_2014.2.0~dev192-1.debian.tar.gz
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package tacker
+dpkg-buildpackage: source version 2014.2.0~dev192-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by OpenStack <openstack-dev@lists.openstack.org>
+dpkg-buildpackage: host architecture amd64
+ dpkg-source --before-build tacker-2014.2.0~dev192
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+ fakeroot debian/rules clean
+dh clean --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+find . -name \*.pyc -exec rm {} \;
+make[1]: Leaving directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+   dh_clean -O--buildsystem=python_distutils
+ debian/rules build
+dh build --with python2 --buildsystem=python_distutils
+   dh_testdir -O--buildsystem=python_distutils
+   dh_auto_configure -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_build
+make[1]: Entering directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+python setup.py build --force
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/tacker
+creating build/lib.linux-x86_64-2.7/tacker/api
+creating build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/router.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/resource.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/__init__.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/attributes.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/resource_helper.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+copying tacker/api/v1/base.py -> build/lib.linux-x86_64-2.7/tacker/api/v1
+creating build/lib.linux-x86_64-2.7/tacker/db
+creating build/lib.linux-x86_64-2.7/tacker/db/vm
+copying tacker/db/vm/proxy_db.py -> build/lib.linux-x86_64-2.7/tacker/db/vm
+copying tacker/db/vm/vm_db.py -> build/lib.linux-x86_64-2.7/tacker/db/vm
+copying tacker/db/vm/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db/vm
+creating build/lib.linux-x86_64-2.7/tacker/openstack
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/cache
+copying tacker/openstack/common/cache/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/cache
+copying tacker/openstack/common/cache/cache.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/cache
+copying tacker/openstack/common/cache/backends.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/cache
+creating build/lib.linux-x86_64-2.7/tacker/tests
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/vm
+copying tacker/tests/unit/vm/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/vm
+copying tacker/tests/unit/vm/test_plugin.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/vm
+creating build/lib.linux-x86_64-2.7/tacker/hacking
+copying tacker/hacking/__init__.py -> build/lib.linux-x86_64-2.7/tacker/hacking
+copying tacker/hacking/checks.py -> build/lib.linux-x86_64-2.7/tacker/hacking
+creating build/lib.linux-x86_64-2.7/tacker/vm
+creating build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers
+creating build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/openwrt
+copying tacker/vm/mgmt_drivers/openwrt/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/openwrt
+copying tacker/vm/mgmt_drivers/openwrt/openwrt.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/openwrt
+copying tacker/version.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/context.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/service.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/hooks.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/__init__.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/policy.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/wsgi.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/oslo_service.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/manager.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/i18n.py -> build/lib.linux-x86_64-2.7/tacker
+copying tacker/auth.py -> build/lib.linux-x86_64-2.7/tacker
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+copying tacker/openstack/common/fixture/config.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+copying tacker/openstack/common/fixture/mockpatch.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+copying tacker/openstack/common/fixture/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+copying tacker/openstack/common/fixture/lockutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+copying tacker/openstack/common/fixture/moxstubout.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture
+creating build/lib.linux-x86_64-2.7/tacker/tests/functional
+creating build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd
+copying tacker/tests/functional/vnfd/test_vnf.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd
+copying tacker/tests/functional/vnfd/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd
+copying tacker/tests/functional/vnfd/test_vnfd.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd
+copying tacker/tests/functional/vnfd/base.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd
+creating build/lib.linux-x86_64-2.7/tacker/db/migration
+copying tacker/db/migration/cli.py -> build/lib.linux-x86_64-2.7/tacker/db/migration
+copying tacker/db/migration/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db/migration
+creating build/lib.linux-x86_64-2.7/tacker/sfc_classifier
+creating build/lib.linux-x86_64-2.7/tacker/sfc_classifier/drivers
+copying tacker/sfc_classifier/drivers/netvirtsfc.py -> build/lib.linux-x86_64-2.7/tacker/sfc_classifier/drivers
+copying tacker/sfc_classifier/drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/sfc_classifier/drivers
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/unit/extensions/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/unit/extensions/v2attributes.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/unit/extensions/foxinsocks.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/unit/extensions/extendedattribute.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/unit/extensions/extensionattribute.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions
+copying tacker/tests/functional/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional
+creating build/lib.linux-x86_64-2.7/tacker/tests/functional/agent
+copying tacker/tests/functional/agent/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/agent
+copying tacker/sfc_classifier/plugin.py -> build/lib.linux-x86_64-2.7/tacker/sfc_classifier
+copying tacker/sfc_classifier/__init__.py -> build/lib.linux-x86_64-2.7/tacker/sfc_classifier
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/agent
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/linux
+copying tacker/tests/unit/agent/linux/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/linux
+copying tacker/tests/unit/agent/linux/test_async_process.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/linux
+creating build/lib.linux-x86_64-2.7/tacker/vm/drivers
+creating build/lib.linux-x86_64-2.7/tacker/vm/drivers/nova
+copying tacker/vm/drivers/nova/nova.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers/nova
+copying tacker/vm/drivers/nova/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers/nova
+creating build/lib.linux-x86_64-2.7/tacker/sfc
+creating build/lib.linux-x86_64-2.7/tacker/sfc/drivers
+copying tacker/sfc/drivers/opendaylight.py -> build/lib.linux-x86_64-2.7/tacker/sfc/drivers
+copying tacker/sfc/drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/sfc/drivers
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/catch_errors.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/correlation_id.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/notifier.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/audit.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/request_id.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/debug.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/base.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/openstack/common/middleware/sizelimit.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware
+copying tacker/tests/unit/test_db_migration.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_agent_rpc.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_config.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_attributes.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_wsgi.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_common_log.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_hacking.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_neutron_context.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_api_v2.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_api_v2_extension.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_post_mortem_debug.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/database_stubs.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/testlib_api.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_common_utils.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/extension_stubs.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_policy.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_auth.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/_test_rootwrap_exec.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_extension_extended_attribute.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_api_v2_resource.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_api_api_common.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+copying tacker/tests/unit/test_extensions.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit
+creating build/lib.linux-x86_64-2.7/tacker/services
+copying tacker/services/service_base.py -> build/lib.linux-x86_64-2.7/tacker/services
+copying tacker/services/__init__.py -> build/lib.linux-x86_64-2.7/tacker/services
+copying tacker/vm/mgmt_drivers/noop.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers
+copying tacker/vm/mgmt_drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers
+copying tacker/vm/mgmt_drivers/abstract_driver.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers
+copying tacker/vm/mgmt_drivers/constants.py -> build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/services
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/drivers
+copying tacker/tests/unit/services/vm/drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/drivers
+copying tacker/tests/unit/services/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/services
+copying tacker/openstack/common/context.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/importutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/periodic_task.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/sslutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/gettextutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/systemd.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/service.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/lockutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/jsonutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/policy.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/timeutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/strutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/processutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/loopingcall.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/threadgroup.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/log_handler.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/excutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/network_utils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/versionutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/uuidutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/log.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/local.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/eventlet_backdoor.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+copying tacker/openstack/common/fileutils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/db
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/session.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/test_base.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/provision.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/models.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/openstack/common/db/sqlalchemy/utils.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy
+copying tacker/api/extensions.py -> build/lib.linux-x86_64-2.7/tacker/api
+copying tacker/api/api_common.py -> build/lib.linux-x86_64-2.7/tacker/api
+copying tacker/api/__init__.py -> build/lib.linux-x86_64-2.7/tacker/api
+copying tacker/api/versions.py -> build/lib.linux-x86_64-2.7/tacker/api
+creating build/lib.linux-x86_64-2.7/tacker/tests/functional/agent/linux
+copying tacker/tests/functional/agent/linux/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/functional/agent/linux
+creating build/lib.linux-x86_64-2.7/tacker/api/views
+copying tacker/api/views/__init__.py -> build/lib.linux-x86_64-2.7/tacker/api/views
+copying tacker/api/views/versions.py -> build/lib.linux-x86_64-2.7/tacker/api/views
+creating build/lib.linux-x86_64-2.7/tacker/extensions
+copying tacker/extensions/sfc_classifier.py -> build/lib.linux-x86_64-2.7/tacker/extensions
+copying tacker/extensions/__init__.py -> build/lib.linux-x86_64-2.7/tacker/extensions
+copying tacker/extensions/vnfm.py -> build/lib.linux-x86_64-2.7/tacker/extensions
+copying tacker/extensions/sfc.py -> build/lib.linux-x86_64-2.7/tacker/extensions
+creating build/lib.linux-x86_64-2.7/tacker/agent
+copying tacker/agent/rpc.py -> build/lib.linux-x86_64-2.7/tacker/agent
+copying tacker/agent/__init__.py -> build/lib.linux-x86_64-2.7/tacker/agent
+creating build/lib.linux-x86_64-2.7/tacker/db/sfc_classifier
+copying tacker/db/sfc_classifier/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db/sfc_classifier
+copying tacker/db/sfc_classifier/sfc_classifier_db.py -> build/lib.linux-x86_64-2.7/tacker/db/sfc_classifier
+copying tacker/tests/unit/agent/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/agent
+creating build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/exceptions.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/config.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/rpc.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/rpc_compat.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/__init__.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/test_lib.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/topics.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/constants.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/log.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/driver_manager.py -> build/lib.linux-x86_64-2.7/tacker/common
+copying tacker/common/utils.py -> build/lib.linux-x86_64-2.7/tacker/common
+creating build/lib.linux-x86_64-2.7/tacker/db/sfc
+copying tacker/db/sfc/sfc_db.py -> build/lib.linux-x86_64-2.7/tacker/db/sfc
+copying tacker/db/sfc/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db/sfc
+copying tacker/openstack/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack
+copying tacker/tests/unit/services/vm/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm
+copying tacker/tests/unit/services/vm/test_servicevm_extension.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm
+creating build/lib.linux-x86_64-2.7/tacker/plugins
+creating build/lib.linux-x86_64-2.7/tacker/plugins/common
+copying tacker/plugins/common/__init__.py -> build/lib.linux-x86_64-2.7/tacker/plugins/common
+copying tacker/plugins/common/constants.py -> build/lib.linux-x86_64-2.7/tacker/plugins/common
+copying tacker/plugins/common/utils.py -> build/lib.linux-x86_64-2.7/tacker/plugins/common
+creating build/lib.linux-x86_64-2.7/tacker/vm/drivers/heat
+copying tacker/vm/drivers/heat/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers/heat
+copying tacker/vm/drivers/heat/heat.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers/heat
+copying tacker/vm/plugin.py -> build/lib.linux-x86_64-2.7/tacker/vm
+copying tacker/vm/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm
+copying tacker/vm/constants.py -> build/lib.linux-x86_64-2.7/tacker/vm
+copying tacker/vm/hosting_device_scheduler.py -> build/lib.linux-x86_64-2.7/tacker/vm
+copying tacker/vm/monitor.py -> build/lib.linux-x86_64-2.7/tacker/vm
+creating build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations
+copying tacker/db/migration/alembic_migrations/env.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations
+copying tacker/db/migration/alembic_migrations/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations
+copying tacker/tests/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests
+copying tacker/tests/tools.py -> build/lib.linux-x86_64-2.7/tacker/tests
+copying tacker/tests/base.py -> build/lib.linux-x86_64-2.7/tacker/tests
+copying tacker/tests/post_mortem_debug.py -> build/lib.linux-x86_64-2.7/tacker/tests
+copying tacker/tests/utils.py -> build/lib.linux-x86_64-2.7/tacker/tests
+copying tacker/tests/fake_notifier.py -> build/lib.linux-x86_64-2.7/tacker/tests
+creating build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/_backends
+copying tacker/openstack/common/cache/_backends/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/_backends
+copying tacker/openstack/common/cache/_backends/memory.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/_backends
+copying tacker/plugins/__init__.py -> build/lib.linux-x86_64-2.7/tacker/plugins
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/mgmt_drivers
+copying tacker/tests/unit/services/vm/mgmt_drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/mgmt_drivers
+copying tacker/openstack/common/db/api.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db
+copying tacker/openstack/common/db/__init__.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db
+copying tacker/openstack/common/db/options.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db
+copying tacker/openstack/common/db/exception.py -> build/lib.linux-x86_64-2.7/tacker/openstack/common/db
+creating build/lib.linux-x86_64-2.7/tacker/cmd
+copying tacker/cmd/__init__.py -> build/lib.linux-x86_64-2.7/tacker/cmd
+copying tacker/cmd/server.py -> build/lib.linux-x86_64-2.7/tacker/cmd
+copying tacker/sfc/plugin.py -> build/lib.linux-x86_64-2.7/tacker/sfc
+copying tacker/sfc/__init__.py -> build/lib.linux-x86_64-2.7/tacker/sfc
+creating build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/external_process.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/polling.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/__init__.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/daemon.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/interface.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/async_process.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/utils.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/agent/linux/ip_lib.py -> build/lib.linux-x86_64-2.7/tacker/agent/linux
+copying tacker/db/sqlalchemyutils.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/db/api.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/db/__init__.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/db/models_v1.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/db/db_base.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/db/model_base.py -> build/lib.linux-x86_64-2.7/tacker/db
+copying tacker/vm/drivers/noop.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers
+copying tacker/vm/drivers/__init__.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers
+copying tacker/vm/drivers/abstract_driver.py -> build/lib.linux-x86_64-2.7/tacker/vm/drivers
+creating build/lib.linux-x86_64-2.7/tacker/tests/unit/db
+copying tacker/tests/unit/db/__init__.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/db
+copying tacker/tests/unit/db/base.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/db
+copying tacker/tests/unit/db/utils.py -> build/lib.linux-x86_64-2.7/tacker/tests/unit/db
+creating build/lib.linux-x86_64-2.7/tacker/agent/common
+copying tacker/agent/common/config.py -> build/lib.linux-x86_64-2.7/tacker/agent/common
+copying tacker/agent/common/__init__.py -> build/lib.linux-x86_64-2.7/tacker/agent/common
+running egg_info
+writing requirements to tacker.egg-info/requires.txt
+writing tacker.egg-info/PKG-INFO
+writing top-level names to tacker.egg-info/top_level.txt
+writing dependency_links to tacker.egg-info/dependency_links.txt
+writing entry points to tacker.egg-info/entry_points.txt
+writing pbr to tacker.egg-info/pbr.json
+[pbr] Reusing existing SOURCES.txt
+creating build/lib.linux-x86_64-2.7/tacker/locale
+copying tacker/locale/tacker.pot -> build/lib.linux-x86_64-2.7/tacker/locale
+copying tacker/db/migration/README -> build/lib.linux-x86_64-2.7/tacker/db/migration
+copying tacker/db/migration/alembic.ini -> build/lib.linux-x86_64-2.7/tacker/db/migration
+copying tacker/db/migration/alembic_migrations/script.py.mako -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations
+creating build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/13c0e0661015_add_descrition_to_vnf.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/1c6b0d82afcd_servicevm_framework.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/4c31092895b8_remove_service_instance.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/5958429bcb3c_modify_datatype_of_value.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/81ffa86020d_rpc_proxy.py -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/HEAD -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+copying tacker/db/migration/alembic_migrations/versions/README -> build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions
+creating build/lib.linux-x86_64-2.7/tacker/tests/contrib
+copying tacker/tests/contrib/README -> build/lib.linux-x86_64-2.7/tacker/tests/contrib
+copying tacker/tests/contrib/post_test_hook.sh -> build/lib.linux-x86_64-2.7/tacker/tests/contrib
+creating build/lib.linux-x86_64-2.7/tacker/tests/etc
+copying tacker/tests/etc/api-paste.ini.test -> build/lib.linux-x86_64-2.7/tacker/tests/etc
+copying tacker/tests/etc/tacker.conf.test -> build/lib.linux-x86_64-2.7/tacker/tests/etc
+creating build/lib.linux-x86_64-2.7/tacker/tests/etc/rootwrap.d
+copying tacker/tests/etc/rootwrap.d/tacker.test.filters -> build/lib.linux-x86_64-2.7/tacker/tests/etc/rootwrap.d
+creating build/lib.linux-x86_64-2.7/tacker/tests/etc/samples
+copying tacker/tests/etc/samples/sample_cirros_vnf.yaml -> build/lib.linux-x86_64-2.7/tacker/tests/etc/samples
+copying tacker/tests/etc/samples/sample_cirros_vnf_no_monitoring.yaml -> build/lib.linux-x86_64-2.7/tacker/tests/etc/samples
+creating build/lib.linux-x86_64-2.7/tacker/tests/var
+copying tacker/tests/var/ca.crt -> build/lib.linux-x86_64-2.7/tacker/tests/var
+copying tacker/tests/var/certandkey.pem -> build/lib.linux-x86_64-2.7/tacker/tests/var
+copying tacker/tests/var/certificate.crt -> build/lib.linux-x86_64-2.7/tacker/tests/var
+copying tacker/tests/var/privatekey.key -> build/lib.linux-x86_64-2.7/tacker/tests/var
+make[1]: Leaving directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+   dh_auto_test -O--buildsystem=python_distutils
+ fakeroot debian/rules binary
+dh binary --with python2 --buildsystem=python_distutils
+   dh_testroot -O--buildsystem=python_distutils
+   dh_prep -O--buildsystem=python_distutils
+   debian/rules override_dh_auto_install
+make[1]: Entering directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+python setup.py install --force --root=debian/python-tacker --no-compile -O0 --install-layout=deb  
+running install
+[pbr] Writing ChangeLog
+[pbr] Generating ChangeLog
+[pbr] ChangeLog complete (0.0s)
+[pbr] Generating AUTHORS
+[pbr] AUTHORS complete (0.0s)
+running build
+running build_py
+running egg_info
+writing requirements to tacker.egg-info/requires.txt
+writing tacker.egg-info/PKG-INFO
+writing top-level names to tacker.egg-info/top_level.txt
+writing dependency_links to tacker.egg-info/dependency_links.txt
+writing entry points to tacker.egg-info/entry_points.txt
+writing pbr to tacker.egg-info/pbr.json
+[pbr] Reusing existing SOURCES.txt
+running install_lib
+creating debian/python-tacker
+creating debian/python-tacker/usr
+creating debian/python-tacker/usr/lib
+creating debian/python-tacker/usr/lib/python2.7
+creating debian/python-tacker/usr/lib/python2.7/dist-packages
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+copying build/lib.linux-x86_64-2.7/tacker/version.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+copying build/lib.linux-x86_64-2.7/tacker/context.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/cmd
+copying build/lib.linux-x86_64-2.7/tacker/cmd/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/cmd
+copying build/lib.linux-x86_64-2.7/tacker/cmd/server.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/cmd
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+copying build/lib.linux-x86_64-2.7/tacker/db/sqlalchemyutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+copying build/lib.linux-x86_64-2.7/tacker/db/api.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc
+copying build/lib.linux-x86_64-2.7/tacker/db/sfc/sfc_db.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc
+copying build/lib.linux-x86_64-2.7/tacker/db/sfc/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc
+copying build/lib.linux-x86_64-2.7/tacker/db/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+copying build/lib.linux-x86_64-2.7/tacker/db/models_v1.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/vm
+copying build/lib.linux-x86_64-2.7/tacker/db/vm/proxy_db.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/vm
+copying build/lib.linux-x86_64-2.7/tacker/db/vm/vm_db.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/vm
+copying build/lib.linux-x86_64-2.7/tacker/db/vm/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/vm
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/cli.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/README -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic.ini -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/env.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/README -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/81ffa86020d_rpc_proxy.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/HEAD -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/5958429bcb3c_modify_datatype_of_value.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/4c31092895b8_remove_service_instance.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/13c0e0661015_add_descrition_to_vnf.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/versions/1c6b0d82afcd_servicevm_framework.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations/versions
+copying build/lib.linux-x86_64-2.7/tacker/db/migration/alembic_migrations/script.py.mako -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/migration/alembic_migrations
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tacker/db/sfc_classifier/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tacker/db/sfc_classifier/sfc_classifier_db.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tacker/db/db_base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+copying build/lib.linux-x86_64-2.7/tacker/db/model_base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/db
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api
+copying build/lib.linux-x86_64-2.7/tacker/api/extensions.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api
+copying build/lib.linux-x86_64-2.7/tacker/api/api_common.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api
+copying build/lib.linux-x86_64-2.7/tacker/api/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/router.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/resource.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/attributes.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/resource_helper.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+copying build/lib.linux-x86_64-2.7/tacker/api/v1/base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/v1
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/views
+copying build/lib.linux-x86_64-2.7/tacker/api/views/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/views
+copying build/lib.linux-x86_64-2.7/tacker/api/views/versions.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api/views
+copying build/lib.linux-x86_64-2.7/tacker/api/versions.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/api
+copying build/lib.linux-x86_64-2.7/tacker/service.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc/drivers/opendaylight.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc/drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc/plugin.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc
+copying build/lib.linux-x86_64-2.7/tacker/sfc/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc
+copying build/lib.linux-x86_64-2.7/tacker/hooks.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+copying build/lib.linux-x86_64-2.7/tacker/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+copying build/lib.linux-x86_64-2.7/tacker/policy.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/nova
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/nova/nova.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/nova
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/nova/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/nova
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/noop.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/abstract_driver.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/heat
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/heat/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/heat
+copying build/lib.linux-x86_64-2.7/tacker/vm/drivers/heat/heat.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/drivers/heat
+copying build/lib.linux-x86_64-2.7/tacker/vm/plugin.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+copying build/lib.linux-x86_64-2.7/tacker/vm/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+copying build/lib.linux-x86_64-2.7/tacker/vm/constants.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/noop.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/abstract_driver.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers/openwrt
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/openwrt/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers/openwrt
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/openwrt/openwrt.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers/openwrt
+copying build/lib.linux-x86_64-2.7/tacker/vm/mgmt_drivers/constants.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/vm/hosting_device_scheduler.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+copying build/lib.linux-x86_64-2.7/tacker/vm/monitor.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/vm
+copying build/lib.linux-x86_64-2.7/tacker/wsgi.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack
+copying build/lib.linux-x86_64-2.7/tacker/openstack/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/context.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/importutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/periodic_task.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/api.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/options.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/exception.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/session.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/test_base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/provision.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/models.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/db/sqlalchemy/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/db/sqlalchemy
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/sslutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/gettextutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/systemd.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/service.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/lockutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/jsonutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/policy.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache/_backends
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/_backends/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache/_backends
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/_backends/memory.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache/_backends
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/cache.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/cache/backends.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/cache
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/timeutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/catch_errors.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/correlation_id.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/notifier.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/audit.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/request_id.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/debug.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/middleware/sizelimit.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/middleware
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/strutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/processutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/loopingcall.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/threadgroup.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/log_handler.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture/config.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture/mockpatch.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture/lockutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fixture/moxstubout.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common/fixture
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/excutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/network_utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/versionutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/uuidutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/log.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/local.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/eventlet_backdoor.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+copying build/lib.linux-x86_64-2.7/tacker/openstack/common/fileutils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/openstack/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins
+copying build/lib.linux-x86_64-2.7/tacker/plugins/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins/common
+copying build/lib.linux-x86_64-2.7/tacker/plugins/common/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins/common
+copying build/lib.linux-x86_64-2.7/tacker/plugins/common/constants.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins/common
+copying build/lib.linux-x86_64-2.7/tacker/plugins/common/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/plugins/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/hacking
+copying build/lib.linux-x86_64-2.7/tacker/hacking/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/hacking
+copying build/lib.linux-x86_64-2.7/tacker/hacking/checks.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/hacking
+copying build/lib.linux-x86_64-2.7/tacker/oslo_service.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+copying build/lib.linux-x86_64-2.7/tacker/manager.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent
+copying build/lib.linux-x86_64-2.7/tacker/agent/rpc.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent
+copying build/lib.linux-x86_64-2.7/tacker/agent/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/common
+copying build/lib.linux-x86_64-2.7/tacker/agent/common/config.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/common
+copying build/lib.linux-x86_64-2.7/tacker/agent/common/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/common
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/external_process.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/polling.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/daemon.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/interface.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/async_process.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/agent/linux/ip_lib.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/agent/linux
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/extensions
+copying build/lib.linux-x86_64-2.7/tacker/extensions/sfc_classifier.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/extensions
+copying build/lib.linux-x86_64-2.7/tacker/extensions/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/extensions
+copying build/lib.linux-x86_64-2.7/tacker/extensions/vnfm.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/extensions
+copying build/lib.linux-x86_64-2.7/tacker/extensions/sfc.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/extensions
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/services
+copying build/lib.linux-x86_64-2.7/tacker/services/service_base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/services
+copying build/lib.linux-x86_64-2.7/tacker/services/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/services
+copying build/lib.linux-x86_64-2.7/tacker/i18n.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc_classifier/drivers/netvirtsfc.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc_classifier/drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier/drivers
+copying build/lib.linux-x86_64-2.7/tacker/sfc_classifier/plugin.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier
+copying build/lib.linux-x86_64-2.7/tacker/sfc_classifier/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/sfc_classifier
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/exceptions.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/config.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/rpc.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/rpc_compat.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/test_lib.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/topics.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/constants.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/log.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/driver_manager.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/common/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/common
+copying build/lib.linux-x86_64-2.7/tacker/auth.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/locale
+copying build/lib.linux-x86_64-2.7/tacker/locale/tacker.pot -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/locale
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_db_migration.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_agent_rpc.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_config.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_attributes.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_wsgi.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/db
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/db/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/db
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/db/base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/db
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/db/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/db
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_common_log.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_hacking.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_neutron_context.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_api_v2.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_api_v2_extension.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/vm/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/vm/test_plugin.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/vm
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_post_mortem_debug.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/database_stubs.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/testlib_api.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_common_utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extension_stubs.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_policy.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_auth.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/_test_rootwrap_exec.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_extension_extended_attribute.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_api_v2_resource.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/agent
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/agent
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/linux/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/agent/linux/test_async_process.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/agent/linux
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions/v2attributes.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions/foxinsocks.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions/extendedattribute.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/extensions/extensionattribute.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/extensions
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/services/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm/drivers
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm/drivers
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/mgmt_drivers/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm/mgmt_drivers
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/services/vm/test_servicevm_extension.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit/services/vm
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_api_api_common.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+copying build/lib.linux-x86_64-2.7/tacker/tests/unit/test_extensions.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/unit
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/contrib
+copying build/lib.linux-x86_64-2.7/tacker/tests/contrib/README -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/contrib
+copying build/lib.linux-x86_64-2.7/tacker/tests/contrib/post_test_hook.sh -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/contrib
+copying build/lib.linux-x86_64-2.7/tacker/tests/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/var
+copying build/lib.linux-x86_64-2.7/tacker/tests/var/certificate.crt -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/var
+copying build/lib.linux-x86_64-2.7/tacker/tests/var/ca.crt -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/var
+copying build/lib.linux-x86_64-2.7/tacker/tests/var/certandkey.pem -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/var
+copying build/lib.linux-x86_64-2.7/tacker/tests/var/privatekey.key -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/var
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/vnfd
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd/test_vnf.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/vnfd
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/vnfd
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd/test_vnfd.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/vnfd
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/vnfd/base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/vnfd
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/agent
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/agent/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/agent
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/tests/functional/agent/linux/__init__.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/functional/agent/linux
+copying build/lib.linux-x86_64-2.7/tacker/tests/tools.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc
+copying build/lib.linux-x86_64-2.7/tacker/tests/etc/tacker.conf.test -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc
+copying build/lib.linux-x86_64-2.7/tacker/tests/etc/api-paste.ini.test -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc/rootwrap.d
+copying build/lib.linux-x86_64-2.7/tacker/tests/etc/rootwrap.d/tacker.test.filters -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc/rootwrap.d
+creating debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc/samples
+copying build/lib.linux-x86_64-2.7/tacker/tests/etc/samples/sample_cirros_vnf_no_monitoring.yaml -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc/samples
+copying build/lib.linux-x86_64-2.7/tacker/tests/etc/samples/sample_cirros_vnf.yaml -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests/etc/samples
+copying build/lib.linux-x86_64-2.7/tacker/tests/base.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+copying build/lib.linux-x86_64-2.7/tacker/tests/post_mortem_debug.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+copying build/lib.linux-x86_64-2.7/tacker/tests/utils.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+copying build/lib.linux-x86_64-2.7/tacker/tests/fake_notifier.py -> debian/python-tacker/usr/lib/python2.7/dist-packages/tacker/tests
+running install_data
+creating debian/python-tacker/etc
+creating debian/python-tacker/etc/init.d
+copying etc/init.d/tacker-server -> debian/python-tacker/etc/init.d
+creating debian/python-tacker/etc/tacker
+copying etc/tacker/api-paste.ini -> debian/python-tacker/etc/tacker
+copying etc/tacker/policy.json -> debian/python-tacker/etc/tacker
+copying etc/tacker/tacker.conf -> debian/python-tacker/etc/tacker
+copying etc/tacker/rootwrap.conf -> debian/python-tacker/etc/tacker
+creating debian/python-tacker/etc/rootwrap.d
+copying etc/tacker/rootwrap.d/servicevm.filters -> debian/python-tacker/etc/rootwrap.d
+running install_egg_info
+Copying tacker.egg-info to debian/python-tacker/usr/lib/python2.7/dist-packages/tacker-2014.2.0.dev192.egg-info
+Skipping SOURCES.txt
+running install_scripts
+Installing tacker-server script to debian/python-tacker/usr/bin
+Installing tacker-rootwrap script to debian/python-tacker/usr/bin
+Installing tacker-db-manage script to debian/python-tacker/usr/bin
+make[1]: Leaving directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+   dh_installdocs -O--buildsystem=python_distutils
+   dh_installchangelogs -O--buildsystem=python_distutils
+   debian/rules override_dh_python2
+make[1]: Entering directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+dh_python2 --no-guessing-versions
+make[1]: Leaving directory `/root/tacker-server/deb_dist/tacker-2014.2.0~dev192'
+   dh_perl -O--buildsystem=python_distutils
+   dh_link -O--buildsystem=python_distutils
+   dh_compress -O--buildsystem=python_distutils
+   dh_fixperms -O--buildsystem=python_distutils
+   dh_installdeb -O--buildsystem=python_distutils
+   dh_gencontrol -O--buildsystem=python_distutils
+dpkg-gencontrol: warning: package python-tacker: unused substitution variable ${python:Provides}
+dpkg-gencontrol: warning: package python-tacker: unused substitution variable ${python:Versions}
+   dh_md5sums -O--buildsystem=python_distutils
+   dh_builddeb -O--buildsystem=python_distutils
+dpkg-deb: building package `python-tacker' in `../python-tacker_2014.2.0~dev192-1_all.deb'.
+ dpkg-genchanges -b >../tacker_2014.2.0~dev192-1_amd64.changes
+dpkg-genchanges: binary-only upload - not including any source code
+ dpkg-source --after-build tacker-2014.2.0~dev192
+dpkg-source: info: using options from tacker-2014.2.0~dev192/debian/source/options: --extend-diff-ignore=\.egg-info$
+dpkg-buildpackage: binary only upload (no source included)
+~/tacker-server/deb_dist ~/tacker-server
+~/tacker-server
+patching file DEBIAN/control
+Patching  deb...
+dpkg-deb: building package `python-tacker' in `/root/python-tacker_2014.2.0~dev192-1_all.deb'.
+Selecting previously unselected package python-tacker.
+(Reading database ... 122772 files and directories currently installed.)
+Preparing to unpack .../python-tacker_2014.2.0~dev192-1_all.deb ...
+Unpacking python-tacker (2014.2.0~dev192-1) ...
+Setting up python-tacker (2014.2.0~dev192-1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+--2016-08-18 07:56:39--  http://archive.ubuntu.com/ubuntu/pool/universe/s/sshpass/sshpass_1.05-1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.162, 91.189.88.152, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.162|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10498 (10K) [application/x-debian-package]
+Saving to: ‘deb’
+
+     0K ..........                                            100% 20.7M=0s
+
+2016-08-18 07:56:39 (20.7 MB/s) - ‘deb’ saved [10498/10498]
+
+Selecting previously unselected package sshpass.
+(Reading database ... 123087 files and directories currently installed.)
+Preparing to unpack deb ...
+Unpacking sshpass (1.05-1) ...
+Setting up sshpass (1.05-1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.6
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+ssh: connect to host 10.20.0.6 port 22: No route to host
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+ssh: connect to host 10.20.0.6 port 22: No route to host
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.3
+ssh: connect to host 10.20.0.6 port 22: No route to host
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.4
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.9
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.8
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Installing python-python-tackerclient_0.0.1~dev48-1_all.deb on 10.20.0.7
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+/etc/puppet/modules ~
+Cloning into 'tacker'...
+~
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cloud-guest-utils eatmydata python-cheetah python-oauth python-serial
+  python3-pycurl python3-software-properties software-properties-common
+  unattended-upgrades
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  mysql-client-core-5.5
+The following packages will be REMOVED:
+  mysql-client-5.6 mysql-client-core-5.6 mysql-server-wsrep-5.6
+The following NEW packages will be installed:
+  mysql-client-5.5 mysql-client-core-5.5
+0 upgraded, 2 newly installed, 3 to remove and 7 not upgraded.
+Need to get 2,302 kB of archives.
+After this operation, 50.5 MB disk space will be freed.
+Get:1 http://archive.ubuntu.com/ubuntu/ trusty-security/main mysql-client-core-5.5 amd64 5.5.50-0ubuntu0.14.04.1 [709 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ trusty-security/main mysql-client-5.5 amd64 5.5.50-0ubuntu0.14.04.1 [1,594 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 2,302 kB in 2s (1,010 kB/s)
+(Reading database ... 123090 files and directories currently installed.)
+Removing mysql-server-wsrep-5.6 (5.6.23-1~u14.04+mos1) ...
+ * Reloading AppArmor profiles
+Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+   ...done.
+Removing mysql-client-5.6 (5.6.23-1~u14.04+mos1) ...
+Removing mysql-client-core-5.6 (5.6.23-1~u14.04+mos1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Selecting previously unselected package mysql-client-core-5.5.
+(Reading database ... 122959 files and directories currently installed.)
+Preparing to unpack .../mysql-client-core-5.5_5.5.50-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking mysql-client-core-5.5 (5.5.50-0ubuntu0.14.04.1) ...
+Selecting previously unselected package mysql-client-5.5.
+Preparing to unpack .../mysql-client-5.5_5.5.50-0ubuntu0.14.04.1_amd64.deb ...
+Unpacking mysql-client-5.5 (5.5.50-0ubuntu0.14.04.1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up mysql-client-core-5.5 (5.5.50-0ubuntu0.14.04.1) ...
+Setting up mysql-client-5.5 (5.5.50-0ubuntu0.14.04.1) ...
+[mNotice: Compiled catalog for node-1.domain.tld in environment production in 1.46 seconds[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/service_plugins]/value: value changed 'tacker.vm.plugin.VNFMPlugin' to 'tacker.vm.plugin.VNFMPlugin,tacker.sfc.plugin.SFCPlugin,tacker.sfc_classifier.plugin.SFCCPlugin'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/control_exchange]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[keystone_authtoken/project_name]/value: value changed 'service' to 'services'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[servicevm_heat/stack_retry_wait]/value: value changed '3' to '30'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[servicevm_heat/heat_uri]/value: value changed 'http://localhost:8004/v1' to 'http://192.168.0.3:8004/v1'[0m
+[mNotice: /Stage[main]/Tacker/Group[tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_virtual_host]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/bind_host]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[keystone_authtoken/auth_uri]/value: value changed 'http://127.0.0.1:5000' to 'http://172.16.0.3:5000/v2.0/'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[keystone_authtoken/password]/value: value changed '[old secret redacted]' to '[new secret redacted]'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_userid]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[sfc/infra_driver]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_password]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[sfc_opendaylight/username]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_host]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_ha_queues]/ensure: created[0m
+[mNotice: /Stage[main]/Mysql::Client::Install/Package[mysql_client]/ensure: ensure changed 'purged' to 'present'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[servicevm_heat/stack_retries]/value: value changed '5' to '10'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[sfc_opendaylight/ip]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_port]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Mysql_database[tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_192.168.0.2]/Mysql_user[tacker@192.168.0.2]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_node-1]/Mysql_user[tacker@node-1]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_node-1]/Mysql_grant[tacker@node-1/tacker.*]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_%]/Mysql_user[tacker@%]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_%]/Mysql_grant[tacker@%/tacker.*]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[keystone_authtoken/identity_uri]/value: value changed 'http://127.0.0.1:5000' to 'http://192.168.0.2:35357/'[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_localhost]/Mysql_user[tacker@localhost]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_localhost]/Mysql_grant[tacker@localhost/tacker.*]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[sfc_opendaylight/password]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_127.0.0.1]/Mysql_user[tacker@127.0.0.1]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_127.0.0.1]/Mysql_grant[tacker@127.0.0.1/tacker.*]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[sfc_opendaylight/port]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/rabbit_hosts]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[DEFAULT/bind_port]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db::Mysql/Openstacklib::Db::Mysql[tacker]/Openstacklib::Db::Mysql::Host_access[tacker_192.168.0.2]/Mysql_grant[tacker@192.168.0.2/tacker.*]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/min_pool_size]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/max_pool_size]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/connection]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/max_retries]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/max_overflow]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/retry_interval]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Db/Tacker_config[database/idle_timeout]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Keystone::Auth/Keystone::Resource::Service_identity[tacker]/Keystone_service[tacker::servicevm]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Keystone::Auth/Keystone::Resource::Service_identity[tacker]/Keystone_endpoint[RegionOne/tacker::servicevm]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Keystone::Auth/Keystone::Resource::Service_identity[tacker]/Keystone_user[tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker::Keystone::Auth/Keystone::Resource::Service_identity[tacker]/Keystone_user_role[tacker@services]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/User[tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/File[/var/lib/tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/File[/var/log/tacker]/ensure: created[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker]/owner: owner changed 'root' to 'tacker'[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker]/group: group changed 'root' to 'tacker'[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker]/mode: mode changed '0755' to '0750'[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker/tacker.conf]/owner: owner changed 'root' to 'tacker'[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker/tacker.conf]/group: group changed 'root' to 'tacker'[0m
+[mNotice: /Stage[main]/Tacker/File[/etc/tacker/tacker.conf]/mode: mode changed '0644' to '0600'[0m
+[mNotice: /Stage[main]/Tacker/Tacker_config[keystone_authtoken/auth_url]/value: value changed 'http://127.0.0.1:35357' to 'http://192.168.0.2:35357/'[0m
+[mNotice: /Stage[main]/Tacker::Db::Sync/Exec[tacker-manage db_sync]: Triggered 'refresh' from 33 events[0m
+[mNotice: /Stage[main]/Tacker::Service/Service[tacker]/ensure: ensure changed 'stopped' to 'running'[0m
+[mNotice: Finished catalog run in 16.30 seconds[0m
+--2016-08-18 07:57:20--  http://archive.ubuntu.com/ubuntu/pool/universe/s/sshpass/sshpass_1.05-1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.152, 91.189.88.149, 91.189.88.161, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.152|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10498 (10K) [application/x-debian-package]
+Saving to: ‘deb’
+
+     0K ..........                                            100%  146M=0s
+
+2016-08-18 07:57:20 (146 MB/s) - ‘deb’ saved [10498/10498]
+
+(Reading database ... 123020 files and directories currently installed.)
+Preparing to unpack deb ...
+Unpacking sshpass (1.05-1) over (1.05-1) ...
+Setting up sshpass (1.05-1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Populating settings to 10.20.0.6
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+ssh: connect to host 10.20.0.6 port 22: No route to host
+Populating settings to 10.20.0.3
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Populating settings to 10.20.0.4
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Populating settings to 10.20.0.9
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Populating settings to 10.20.0.8
+Permission denied (publickey).
+lost connection
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+Populating settings to 10.20.0.7
+Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
+Permission denied (publickey).
+lost connection
+tacker stop/waiting
+tacker start/running, process 15906
+Cloning into 'sfc-random'...
+Built: /root/python-tacker_2014.2.0~dev192-1_all.deb
+Built: /root/python-python-tackerclient_0.0.1~dev48-1_all.deb
+Built: /root/python-jsonrpclib_0.1.7-1_all.deb
+tackerc - mandatory environmental parameters file created
++----------------------------+--------------------------------------+
+| Field                      | Value                                |
++----------------------------+--------------------------------------+
+| OS-FLV-DISABLED:disabled   | False                                |
+| OS-FLV-EXT-DATA:ephemeral  | 0                                    |
+| disk                       | 10                                   |
+| id                         | be6c1c0f-739a-4c35-842f-1cc561e88ca1 |
+| name                       | custom                               |
+| os-flavor-access:is_public | True                                 |
+| ram                        | 1500                                 |
+| rxtx_factor                | 1.0                                  |
+| swap                       |                                      |
+| vcpus                      | 1                                    |
++----------------------------+--------------------------------------+
+Warning: Permanently added '10.20.0.2' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.5' (ECDSA) to the list of known hosts.
+Warning: Permanently added '10.20.0.2' (ECDSA) to the list of known hosts.
