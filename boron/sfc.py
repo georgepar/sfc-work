@@ -300,6 +300,8 @@ def main():
                                shell=True,
                                stdout=subprocess.PIPE)
 
+    i = 0
+    
     # SSH TO EXECUTE cmd_client
     logger.info("TEST STARTED")
     try:
@@ -310,7 +312,6 @@ def main():
 
 
         # WRITE THE CORRECT WAY TO DO LOGGING
-        i = 0
         if "timed out" in stdout.readlines()[0]:
             logger.info('\033[92m' + "TEST 1 [PASSED] "
                         "==> SSH BLOCKED" + '\033[0m')
@@ -319,31 +320,31 @@ def main():
             logger.error('\033[91m' + "TEST 1 [FAILED] "
                          "==> SSH NOT BLOCKED" + '\033[0m')
             return
-
-    # SSH TO EXECUTE cmd_client
     except:
         logger.debug("Waiting for %s..." % floatip_client)
         time.sleep(6)
         # timeout -= 1
     
+    # SSH TO EXECUTE cmd_client
     try:
         ssh.connect(floatip_client, username="root",
                     password="opnfv", timeout=2)
         command = "nc -w 5 -zv " + instance_ip_2 + " 80 2>&1"
         (stdin, stdout, stderr) = ssh.exec_command(command)
+
+        if "succeeded" in stdout.readlines()[0]:
+            logger.info('\033[92m' + "TEST 2 [PASSED] "
+                        "==> HTTP WORKS" + '\033[0m')
+            i = i + 1
+        else:
+            logger.error('\033[91m' + "TEST 2 [FAILED] "
+                         "==> HTTP BLOCKED" + '\033[0m')
+            return
     except:
         logger.debug("Waiting for %s..." % floatip_client)
         time.sleep(6)
         # timeout -= 1
 
-    if "succeeded" in stdout.readlines()[0]:
-        logger.info('\033[92m' + "TEST 2 [PASSED] "
-                    "==> HTTP WORKS" + '\033[0m')
-        i = i + 1
-    else:
-        logger.error('\033[91m' + "TEST 2 [FAILED] "
-                     "==> HTTP BLOCKED" + '\033[0m')
-        return
 
     # CHANGE OF CLASSIFICATION #
     logger.info("Changing the classification")
@@ -370,46 +371,47 @@ def main():
                     password="opnfv", timeout=2)
         command = "nc -w 5 -zv " + instance_ip_2 + " 80 2>&1"
         (stdin, stdout, stderr) = ssh.exec_command(command)
+
+
+        if "timed out" in stdout.readlines()[0]:
+            logger.info('\033[92m' + "TEST 3 [WORKS] "
+                        "==> HTTP BLOCKED" + '\033[0m')
+            i = i + 1
+        else:
+            logger.error('\033[91m' + "TEST 3 [FAILED] "
+                         "==> HTTP NOT BLOCKED" + '\033[0m')
+            return
     except:
         logger.debug("Waiting for %s..." % floatip_client)
         time.sleep(6)
         # timeout -= 1
 
-    if "timed out" in stdout.readlines()[0]:
-        logger.info('\033[92m' + "TEST 3 [WORKS] "
-                    "==> HTTP BLOCKED" + '\033[0m')
-        i = i + 1
-    else:
-        logger.error('\033[91m' + "TEST 3 [FAILED] "
-                     "==> HTTP NOT BLOCKED" + '\033[0m')
-        return
-
     # SSH TO EXECUTE cmd_client
-
     try:
         ssh.connect(floatip_client, username="root",
                     password="opnfv", timeout=2)
         command = "nc -w 5 -zv " + instance_ip_2 + " 22 2>&1"
         (stdin, stdout, stderr) = ssh.exec_command(command)
+
+
+        if "succeeded" in stdout.readlines()[0]:
+            logger.info('\033[92m' + "TEST 4 [WORKS] "
+                        "==> SSH WORKS" + '\033[0m')
+            i = i + 1
+        else:
+            logger.error('\033[91m' + "TEST 4 [FAILED] "
+                         "==> SSH BLOCKED" + '\033[0m')
+            return
     except:
         logger.debug("Waiting for %s..." % floatip_client)
         time.sleep(6)
         # timeout -= 1
 
-    if "succeeded" in stdout.readlines()[0]:
-        logger.info('\033[92m' + "TEST 4 [WORKS] "
-                    "==> SSH WORKS" + '\033[0m')
-        i = i + 1
-    else:
-        logger.error('\033[91m' + "TEST 4 [FAILED] "
-                     "==> SSH BLOCKED" + '\033[0m')
-        return
-
     if i == 4:
         for x in range(0, 5):
             logger.info('\033[92m' + "SFC TEST WORKED"
                         " :) \n" + '\033[0m')
-
+ 
     # TODO report results to DB
     # functest_utils.logger_test_results(logger, "SFC",
     # "odl-sfc",
