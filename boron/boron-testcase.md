@@ -62,6 +62,10 @@ java.lang.IllegalStateException: Deserializer for key: msgVersion: 4 objectClass
 
 A quick search leads to this (year old) [bug report](https://bugs.opendaylight.org/show_bug.cgi?id=2957)
 
+This error seems to lead to collapsing of the `br-int` bridge
+```
+ovs-ofctl: br-int is not a bridge or a socket
+```
 
 ## Various errors
 
