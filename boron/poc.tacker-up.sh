@@ -321,7 +321,7 @@ function orchestarte () {
    }
 EOF
 
-    apt-get install -y mysql-client-5.5
+    apt-get install -y mysql-client-5.6
     cat > /usr/bin/tacker-manage <<EOFAKEMANAGE
 #!/bin/bash
 EOFAKEMANAGE
