@@ -105,8 +105,7 @@ ovs-ofctl: br-int is not a bridge or a socket
 
 ## Various errors
 
-1. The `server_presetup_CI.bash` throws the following but it completes and the testcase can be run 
-   [FIXED (modify poc.tacker-up.sh + add ssh keys manually]:
+1. The `server_presetup_CI.bash` throws the following but it completes and the testcase can be run [FIXED]:
    ```
 W: GPG error: http://mirror.fuel-infra.org mos9.0-holdback Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
 W: GPG error: http://mirror.fuel-infra.org mos9.0-security Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
