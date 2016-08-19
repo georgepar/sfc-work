@@ -58,7 +58,7 @@ ____EOF
 
 # Function setting up the build/deploy environment
 function envSetup () {
-    apt-key adv -y --keyserver keyserver.ubuntu.com --recv-keys BCE5CC461FA22B08
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BCE5CC461FA22B08
     apt-get update
     apt-get install -y git python-pip python-all debhelper
     chkPPkg stdeb
@@ -251,7 +251,7 @@ function populate_client() {
 }
 
 # Function orchestrate the Tacker service
-function orchestarte () {
+function orchestrate () {
     rm -rf /etc/puppet/modules/tacker
     pushd /etc/puppet/modules
     git clone https://github.com/trozet/puppet-tacker.git tacker
@@ -321,7 +321,7 @@ function orchestarte () {
    }
 EOF
 
-    apt-get install -y mysql-client-5.6
+    apt-get install -y mysql-client-5.5
     cat > /usr/bin/tacker-manage <<EOFAKEMANAGE
 #!/bin/bash
 EOFAKEMANAGE
@@ -380,7 +380,7 @@ buildTackerServer
 blessPackage
 deployTackerServer
 populate_client
-orchestarte
+orchestrate
 populate_rc
 tacker_changes
 
