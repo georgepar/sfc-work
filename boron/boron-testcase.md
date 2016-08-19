@@ -1,5 +1,22 @@
 # Boron Testcase
 
+## [19/8/2016] Tacker setup failure
+
+Tacker service does not start. Tacker log gives
+```
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/bin/tacker-server", line 10, in <module>
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/cmd/server.py", line 48, in main
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 98, in serve_wsgi
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/openstack/common/excutils.py", line 82, in __exit__
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 95, in serve_wsgi
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 66, in start
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 105, in _run_wsgi
+2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/common/config.py", line 137, in load_paste_app
+2016-08-19 07:41:21.694 30468 TRACE tacker ConfigFilesNotFoundError: Failed to find some config files: api-paste.ini
+2016-08-19 07:41:21.694 30468 TRACE tacker 
+```
+
+
 The testcase fails with 
 
 ```
