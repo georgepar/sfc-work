@@ -1,20 +1,38 @@
 # Boron Testcase
 
-## [19/8/2016] Tacker setup failure
+## [19/8/2016] Testcase with OpenDaylight Boron RC0
 
-Tacker service does not start. Tacker log gives
+Test Output:
 ```
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/bin/tacker-server", line 10, in <module>
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/cmd/server.py", line 48, in main
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 98, in serve_wsgi
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/openstack/common/excutils.py", line 82, in __exit__
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 95, in serve_wsgi
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 66, in start
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/service.py", line 105, in _run_wsgi
-2016-08-19 07:41:21.694 30468 TRACE tacker   File "/usr/lib/python2.7/dist-packages/tacker/common/config.py", line 137, in load_paste_app
-2016-08-19 07:41:21.694 30468 TRACE tacker ConfigFilesNotFoundError: Failed to find some config files: api-paste.ini
-2016-08-19 07:41:21.694 30468 TRACE tacker 
+2016-08-19 13:13:58,536 - ODL_SFC - INFO - TEST 1 [PASSED] ==> SSH BLOCKED
+2016-08-19 13:14:03,837 - ODL_SFC - ERROR - TEST 2 [FAILED] ==> HTTP BLOCKED
 ```
+
+Karaf Log:
+```
+2016-08-19 13:12:11,106 | ERROR | ntLoopGroup-11-2 | DeviceFlowRegistryImpl           | 298 - org.opendaylight.openflowplugin.impl - 0.3.0.Boron-RC0 | Flow with flowId Ingress_DHCPv6_Server47_fa:16:3e:71:c8:2f_Permit_ already exists in table 91
+
+2016-08-19 13:12:11,107 | ERROR | ntLoopGroup-11-2 | DeviceFlowRegistryImpl           | 298 - org.opendaylight.openflowplugin.impl - 0.3.0.Boron-RC0 | Flow with flowId Egress_DHCP_Client_Permit_ already exists in table 41
+
+...
+
+2016-08-19 13:12:11,298 | INFO  | ntDispatcherImpl | OF13Provider                     | 325 - org.opendaylight.netvirt.openstack.net-virt-providers - 1.3.0.Boron-RC0 | Added TunnelPort : portName: vxlan-192.168.2.2
+
+2016-08-19 13:12:11,298 | INFO  | ntDispatcherImpl | OF13Provider                     | 325 - org.opendaylight.netvirt.openstack.net-virt-providers - 1.3.0.Boron-RC0 | Tunnel vxlan-192.168.2.2 is present in br-int of ovsdb://uuid/cc75c3a0-6d5b-4fa4-90cd-c538578c8c95/bridge/br-int
+
+...
+```
+
+Flows: 
+```
+root@node-2:~# ovs-ofctl -O Openflow13 dump-flows br-int table=11
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=383.938s, table=11, n_packets=66, n_bytes=4884, tcp,reg0=0x1,tp_dst=80 actions=move:NXM_NX_TUN_ID[0..31]->NXM_NX_NSH_C2[],push_nsh,load:0x1->NXM_NX_NSH_MDTYPE[],load:0x3->NXM_NX_NSH_NP[],load:0->NXM_NX_NSH_C1[],load:0->NXM_NX_NSP[0..23],load:0xff->NXM_NX_NSI[],load:0->NXM_NX_TUN_IPV4_DST[],load:0->NXM_NX_TUN_ID[0..31],resubmit(,0)
+ cookie=0x0, duration=383.936s, table=11, n_packets=66, n_bytes=4884, tcp,reg0=0x1,tp_dst=22 actions=move:NXM_NX_TUN_ID[0..31]->NXM_NX_NSH_C2[],push_nsh,load:0x1->NXM_NX_NSH_MDTYPE[],load:0x3->NXM_NX_NSH_NP[],load:0->NXM_NX_NSH_C1[],load:0->NXM_NX_NSP[0..23],load:0xff->NXM_NX_NSI[],load:0->NXM_NX_TUN_IPV4_DST[],load:0->NXM_NX_TUN_ID[0..31],resubmit(,0)
+ cookie=0x0, duration=1766.910s, table=11, n_packets=4563, n_bytes=408052, priority=0 actions=goto_table:21
+```
+
+## [19/8/2016] Tacker setup failure [FIXED]
 
 ## [18/9/2016] OpenDaylight error
 
@@ -87,7 +105,8 @@ ovs-ofctl: br-int is not a bridge or a socket
 
 ## Various errors
 
-1. The `server_presetup_CI.bash` throws the following but it completes and the testcase can be run:
+1. The `server_presetup_CI.bash` throws the following but it completes and the testcase can be run 
+   [FIXED (modify poc.tacker-up.sh + add ssh keys manually]:
    ```
 W: GPG error: http://mirror.fuel-infra.org mos9.0-holdback Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
 W: GPG error: http://mirror.fuel-infra.org mos9.0-security Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY BCE5CC461FA22B08
@@ -96,7 +115,7 @@ W: GPG error: http://mirror.fuel-infra.org mos9.0-updates Release: The following
 ...  
 
 ...  
-Populating settings to 10.20.0.6
+Populating settings to 10.20.0.6 
 Warning: Identity file /root/.ssh/id_rsa not accessible: No such file or directory.
 ssh: connect to host 10.20.0.6 port 22: No route to host
 Populating settings to 10.20.0.3
@@ -106,18 +125,4 @@ Permission denied (publickey).
 lost connection
 ...  
    ```
-2. The `sfc.py` testcase seems to have some trouble creating the SFs as shown in the log below
-   ```
-checking if SFs are up:  | 3724f84b-09f4-4890-a962-458f59ce9dba | testVNF1 | firewall1-example |          | PENDING_CREATE |    
-
-| 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |    
-
-checking if SFs are up:  | 9b24b5ae-ac52-4900-856e-6f6657ebbe11 | testVNF2 | firewall2-example |          | PENDING_CREATE |   
-checking if SFs are up:  
-Request Failed: internal server error while processing your request.
-Request Failed: internal server error while processing your request.
-   ```
-3. I try to get the flows using the `dump_flows.sh` script.
-   The flows seem to be created only in the compute node as show in the following printscreen
-![dump_flows output](https://raw.githubusercontent.com/georgepar/sfc-work/master/boron/flows.png)
-4. The `sfc.py` testcase errors out (see the above printscreen), so I tried to create a fix. (Still testing)
+2. The `sfc.py` testcase errors out (see the above printscreen), so I tried to create a fix. [FIXED]
