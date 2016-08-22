@@ -257,8 +257,9 @@ def main():
 
     try:
         while 1:
-            (stdin, stdout, stderr) = ssh.exec_command("ps lax | grep python")
-            if "vxlan_tool.py" in stdout.readlines()[0]:
+            (stdin, stdout, stderr) = ssh.exec_command(
+                "ps aux | grep \"vxlan_tool.py\" | grep -v grep")
+            if len(stdout.readlines() != 0):
                 logger.debug("HTTP firewall started")
                 break
             else:
@@ -281,8 +282,9 @@ def main():
 
     try:
         while 1:
-            (stdin, stdout, stderr) = ssh.exec_command("ps lax | grep python")
-            if "vxlan_tool.py" in stdout.readlines()[0]:
+            (stdin, stdout, stderr) = ssh.exec_command(
+                "ps aux | grep \"vxlan_tool.py\" | grep -v grep")
+            if len(stdout.readlines() != 0):
                 logger.debug("SSH firewall started")
                 break
             else:
@@ -309,7 +311,6 @@ def main():
                     password="opnfv", timeout=2)
         command = "nc -w 5 -zv " + instance_ip_2 + " 22 2>&1"
         (stdin, stdout, stderr) = ssh.exec_command(command)
-
 
         # WRITE THE CORRECT WAY TO DO LOGGING
         if "timed out" in stdout.readlines()[0]:
