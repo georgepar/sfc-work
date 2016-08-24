@@ -1,0 +1,19 @@
+root@node-2:~# ovs-ofctl -O Openflow13 dump-flows br-int | cut -d',' -f3-
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ table=0, n_packets=89, n_bytes=10057, dl_type=0x88cc actions=CONTROLLER:65535
+ table=0, n_packets=0, n_bytes=0, priority=6 actions=goto_table:1
+ table=1, n_packets=0, n_bytes=0, priority=0 actions=goto_table:11
+ table=11, n_packets=0, n_bytes=0, priority=0 actions=goto_table:21
+ table=21, n_packets=0, n_bytes=0, priority=1024,arp,tun_id=0x2,arp_tpa=192.168.111.1,arp_op=1 actions=move:NXM_OF_ETH_SRC[]->NXM_OF_ETH_DST[],set_field:fa:16:3e:26:8d:d0->eth_src,load:0x2->NXM_OF_ARP_OP[],move:NXM_NX_ARP_SHA[]->NXM_NX_ARP_THA[],move:NXM_OF_ARP_SPA[]->NXM_OF_ARP_TPA[],load:0xfa163e268dd0->NXM_NX_ARP_SHA[],load:0xc0a86f01->NXM_OF_ARP_SPA[],IN_PORT
+ table=21, n_packets=0, n_bytes=0, priority=0 actions=goto_table:31
+ table=31, n_packets=0, n_bytes=0, priority=0 actions=goto_table:41
+ table=41, n_packets=0, n_bytes=0, priority=0 actions=goto_table:51
+ table=51, n_packets=0, n_bytes=0, priority=0 actions=goto_table:61
+ table=61, n_packets=0, n_bytes=0, priority=0 actions=goto_table:71
+ table=71, n_packets=0, n_bytes=0, priority=0 actions=goto_table:81
+ table=81, n_packets=0, n_bytes=0, priority=0 actions=goto_table:91
+ table=91, n_packets=0, n_bytes=0, priority=0 actions=goto_table:101
+ table=101, n_packets=0, n_bytes=0, priority=0 actions=goto_table:111
+ table=111, n_packets=0, n_bytes=0, tun_id=0x2,dl_dst=fa:16:3e:ce:b7:9c actions=output:1
+ table=111, n_packets=0, n_bytes=0, tun_id=0x2,dl_dst=fa:16:3e:26:8d:d0 actions=output:1
+ table=111, n_packets=0, n_bytes=0, priority=0 actions=drop
