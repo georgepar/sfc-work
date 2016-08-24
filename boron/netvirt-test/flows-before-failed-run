@@ -1,3 +1,4 @@
+# These are the starting flows before the testcase is run (before instance/vnf/sf/classifier creation)
 root@node-2:~# ovs-ofctl -O Openflow13 dump-flows br-int | cut -d',' -f3-
 OFPST_FLOW reply (OF1.3) (xid=0x2):
  table=0, n_packets=89, n_bytes=10057, dl_type=0x88cc actions=CONTROLLER:65535
