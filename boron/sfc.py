@@ -259,14 +259,14 @@ def main():
         while 1:
             (stdin, stdout, stderr) = ssh.exec_command(
                 "ps aux | grep \"vxlan_tool.py\" | grep -v grep")
-            if len(stdout.readlines() != 0):
+            if len(stdout.readlines()) > 0:
                 logger.debug("HTTP firewall started")
                 break
             else:
                 logger.debug("HTTP firewall not started")
                 time.sleep(3)
-    except:
-        logger.error("vxlan_tool not started in SF1")
+    except Exception:
+        logger.exception("vxlan_tool not started in SF1")
 
     # SSH TO START THE VXLAN_TOOL ON SF2
     try:
@@ -284,14 +284,14 @@ def main():
         while 1:
             (stdin, stdout, stderr) = ssh.exec_command(
                 "ps aux | grep \"vxlan_tool.py\" | grep -v grep")
-            if len(stdout.readlines() != 0):
+            if len(stdout.readlines()) > 0:
                 logger.debug("SSH firewall started")
                 break
             else:
                 logger.debug("SSH firewall not started")
                 time.sleep(3)
-    except:
-        logger.error("vxlan_tool not started in SF2")
+    except Exception:
+        logger.exception("vxlan_tool not started in SF2")
 
     # SSH to modify the classification flows in compute
 
@@ -301,6 +301,11 @@ def main():
     process = subprocess.Popen(contr_cmd3,
                                shell=True,
                                stdout=subprocess.PIPE)
+
+    logger.info("Waiting for 120 seconds before TEST")
+    for j in range(0,12):
+        logger.info("Test starting in {0} seconds".format(str((12 - j)*10)))
+        time.sleep(10)
 
     i = 0
     
@@ -412,7 +417,7 @@ def main():
         for x in range(0, 5):
             logger.info('\033[92m' + "SFC TEST WORKED"
                         " :) \n" + '\033[0m')
- 
+
     # TODO report results to DB
     # functest_utils.logger_test_results(logger, "SFC",
     # "odl-sfc",
